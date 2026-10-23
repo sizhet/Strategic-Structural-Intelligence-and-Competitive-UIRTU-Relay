@@ -1,0 +1,34 @@
+{
+  "title": "Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "<p><strong>Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)</strong> develops a proposed research framework for strategic interactions among autonomous subjects using cooperative, competitive, adversarial, and hybrid UIRTU-Relay structures.</p><p>The framework connects strategic subject boundaries and control planes, massive multi-strategy simulation, context-dependent comparative advantage maps, strategic worldview forests, social and institutional co-evolution, open-ended structural recursive self-improvement (RSI), and human strategic sovereignty. Its central aim is to turn AI-scale strategic exploration into contestable, auditable, context-aware knowledge while keeping consequential goals, values, and decisions under legitimate human authority.</p><p>Version 1.0.0 contains ten research manuscripts, four proposed technical specifications, three illustrative case studies, architectural figures, and an open-questions, testable-hypotheses, and validation-roadmap package. The specifications are proposals rather than adopted standards; the cases are illustrative, and the hypotheses have not been established by empirical experiments. This release is intended to invite critical examination, replication, counter-evidence, and further research.</p><p>Project repository: <a href=\"https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay\">GitHub — SSICR</a>.</p>",
+  "creators": [
+    {"name": "Tan, Sizhe"},
+    {"name": "GPT-Obot"}
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-10-22",
+  "language": "eng",
+  "keywords": [
+    "Structural Intelligence",
+    "Strategic Structural Intelligence",
+    "UIRTU-Relay",
+    "Competitive Relay",
+    "Multi-Strategy Simulation",
+    "Strategic Comparative Advantage",
+    "Strategic Advantage Maps",
+    "Strategic Worldview Forests",
+    "Structural Recursive Self-Improvement",
+    "Human Strategic Sovereignty",
+    "Counter-Evidence",
+    "Multi-Agent Systems"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
