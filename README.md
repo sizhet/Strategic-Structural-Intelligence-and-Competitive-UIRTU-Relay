@@ -21,6 +21,12 @@ SSICR proposes a research architecture in which large-scale, multi-strategy simu
 
 This repository presents a **research program and design proposals**, not a deployed strategic decision system or a claim of experimentally established superiority.
 
+---
+
+![Fig-001-SSICR-Grand-Architecture.png](figures/Fig-001-SSICR-Grand-Architecture.png)
+
+---
+
 ## The Core Thesis
 
 The important unit of strategic intelligence is not merely an isolated agent, a strategy, or a prediction. It is a **subject situated within a changing ecology of other subjects, capabilities, relay contracts, institutions, evidence, and possible futures**.
@@ -211,7 +217,7 @@ Tan, Sizhe, and GPT-Obot. (2026). *Strategic Structural Intelligence and Competi
 
 The DOI is **pending**; do not substitute a placeholder DOI into a publication citation. After archival release, use the DOI supplied by the repository's archival record and update `CITATION.cff` and the release materials accordingly.
 
-For the governing license, consult the repository's [`LICENSE`](LICENSE) file. Do not infer a license from this README alone.
+For the governing license, consult the repository's [`LICENSE.txt`](LICENSE.txt) file. Do not infer a license from this README alone.
 
 ## Closing Perspective
 
