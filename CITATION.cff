@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research framework, please cite this repository using
+  the metadata provided here. A DOI will be added after the first Zenodo release.
+type: software
+title: 'Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)'
+authors:
+  - family-names: Tan
+    given-names: Sizhe
+  - name: GPT-Obot
+abstract: >-
+  SSICR is a research framework for strategic structural intelligence,
+  competitive and cooperative UIRTU-Relay, multi-strategy simulation,
+  context-dependent strategic comparative advantage, strategic worldview
+  evolution, open-ended structural recursive self-improvement, and human
+  strategic sovereignty. The repository contains research manuscripts,
+  specifications, illustrative cases, and a proposed validation roadmap;
+  its hypotheses are not presented as empirically established findings.
+version: 1.0.0
+date-released: 2026-10-22
+repository-code: 'https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay'
+url: 'https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay'
+keywords:
+  - structural intelligence
+  - strategic intelligence
+  - UIRTU-Relay
+  - multi-agent simulation
+  - strategic comparative advantage
+  - strategic worldview forests
+  - recursive self-improvement
+  - human strategic sovereignty
