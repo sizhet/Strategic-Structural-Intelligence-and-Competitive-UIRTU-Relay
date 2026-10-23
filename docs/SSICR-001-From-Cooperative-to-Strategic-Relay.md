@@ -15,6 +15,10 @@ Intelligence relay is often described as the voluntary composition of specialize
 
 ---
 
+![Fig-001-SSICR-Grand-Architecture.png](../figures/Fig-001-SSICR-Grand-Architecture.png)
+
+---
+
 ## 1. Introduction: The Cooperative Assumption
 
 In an initial cooperative relay model, intelligence units exchange context, invoke one another's capabilities, and compose outputs under a substantially shared objective. A typical chain is:
@@ -85,6 +89,12 @@ These categories describe **relationship states**, not permanent labels for an e
 > Cooperation, competition, conflict, negotiation, and co-evolution can be modeled as alternative or concurrent relational states within a generalized intelligence-relay system.
 
 This is a proposed unifying abstraction. Its utility must be evaluated against existing multi-agent, game-theoretic, organizational, and institutional models.
+
+---
+
+![Fig-002-Cooperative-to-Competitive-Relay.png](../figures/Fig-002-Cooperative-to-Competitive-Relay.png)
+
+---
 
 ## 4. Strategic Complexity Is Not Merely Greater Granularity
 
@@ -323,10 +333,6 @@ The objective is not a universal winning strategy or an infallible social simula
 > **AI should help humans see more strategic possibilities, understand their costs and boundaries, and retain the capacity to choose their own futures.**
 
 ---
-
-## Suggested Figure Placement
-
-Insert `../figures/Fig-002-Cooperative-to-Competitive-Relay.png` after Section 3, following Proposition P1. The figure should contrast a shared-objective cooperative relay with a multi-subject environment containing competitive, adversarial, and mixed-motive links.
 
 ## Related SSICR Documents
 

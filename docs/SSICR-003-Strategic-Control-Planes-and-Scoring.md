@@ -11,6 +11,12 @@ Competitive UIRTU-Relay systems contain multiple strategic subjects with differe
 
 **Keywords:** strategic control plane; UIRTU-Relay; strategic scoring forest; multi-agent competition; comparative advantage map; scoring sovereignty; counter-evidence; strategic governance
 
+---
+
+![Fig-003-Strategic-Subjects-and-Control-Planes.png](../figures/Fig-003-Strategic-Subjects-and-Control-Planes.png)
+
+---
+
 ## 1. Scope and Position
 
 SSICR-001 generalized relay relationships beyond voluntary cooperation. SSICR-002 defined strategic subjects and relay boundaries. This paper addresses the next question: **How does a strategic subject evaluate, select, authorize, and revise relay strategies when other subjects may react strategically?**

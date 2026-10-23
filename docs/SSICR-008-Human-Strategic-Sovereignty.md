@@ -16,6 +16,12 @@ Large-scale AI systems can generate, simulate, compare, and revise strategic opt
 
 **Keywords:** human strategic sovereignty; UIRTU-Relay; strategic decision support; multi-agent simulation; strategic advantage maps; worldview forests; human-AI governance; counter-evidence; corrigibility; strategic agency.
 
+---
+
+![Fig-008-Human-Strategic-Sovereignty.png](../figures/Fig-008-Human-Strategic-Sovereignty.png)
+
+---
+
 ## 1. The central problem
 
 The growing capacity of AI systems to produce strategic alternatives introduces an asymmetry:

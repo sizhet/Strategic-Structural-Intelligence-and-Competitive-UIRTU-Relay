@@ -18,6 +18,10 @@ Massive Multi-Strategy Simulation (MMSS) can produce enormous volumes of competi
 
 ---
 
+![Fig-005-Strategic-Advantage-Landscape.png](../figures/Fig-005-Strategic-Advantage-Landscape.png)
+
+---
+
 ## 1. The Central Problem: A Winner Is Not a Strategic Theory
 
 In competitive multi-subject systems, a strategy that wins one tournament may lose when resources, opponent composition, objectives, institutional rules, or time horizons change. A leaderboard compresses away the conditions that explain performance. The fundamental question is therefore not:

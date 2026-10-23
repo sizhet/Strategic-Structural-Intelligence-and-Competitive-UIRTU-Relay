@@ -13,6 +13,8 @@ Competitive and adversarial UIRTU-Relay systems require a distinction between an
 
 **Keywords:** strategic subject; UIRTU; relay boundary; scoring sovereignty; multi-agent systems; strategic simulation; trust; counter-evidence; open subject modeling; human governance
 
+---
+
 ## 1. Motivation: Why Relay Requires Subject Boundaries
 
 In cooperative UIRTU-Relay, participants can often be modeled as components pursuing a shared task. Competitive and adversarial settings break that simplifying assumption. A relay provider may also be a market competitor; a research consortium may share infrastructure while retaining proprietary goals; a regulator may influence multiple organizations without owning their strategies.
@@ -100,6 +102,12 @@ A relay partner may be trusted for computation but not for training on supplied 
 ### 4.2 Boundary crossings are events
 
 Every cross-subject relay should produce an auditable event containing the sender, recipient, purpose, contract version, permissions, inputs and outputs references, observed outcome, and exception state. Sensitive payloads need not be copied into logs; references, hashes, and access-controlled evidence may suffice.
+
+---
+
+![Fig-003-Strategic-Subjects-and-Control-Planes.png](../figures/Fig-003-Strategic-Subjects-and-Control-Planes.png)
+
+---
 
 ## 5. Cross-Subject Strategic Relay Contract
 
@@ -310,10 +318,6 @@ The proposed strategic-subject model, six relay boundaries, cross-subject contra
 The guiding principle is straightforward: **relay may cross subject boundaries; strategic sovereignty must not transfer by accident.**
 
 ---
-
-## Suggested Figure Placement
-
-**Fig-003-Strategic-Subjects-and-Control-Planes.png** — insert after Section 4 or Section 8, emphasizing multiple sovereign scoring/control planes connected through scoped relay contracts.
 
 ## Research and Citation Note
 

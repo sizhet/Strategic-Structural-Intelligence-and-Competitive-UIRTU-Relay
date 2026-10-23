@@ -16,6 +16,12 @@ Large-scale multi-strategy UIRTU-Relay simulation can generate enormous volumes 
 
 **Keywords:** Strategic Worldview Forest; Strategic Advantage Map; UIRTU-Relay; Strategic Structural Intelligence; Scoring Forest; perspective-aware optimization; principle extraction; multi-agent simulation; counter-evidence; human strategic sovereignty.
 
+---
+
+![Fig-006-Strategic-Worldview-Forest.png](../figures/Fig-006-Strategic-Worldview-Forest.png)
+
+---
+
 ## 1. Research Position and Scope
 
 This is the sixth core paper in SSICR. SSICR-001 generalizes cooperative relay into competitive and adversarial relations; SSICR-002 specifies strategic subjects and boundaries; SSICR-003 introduces strategic control planes and scoring; SSICR-004 develops massive multi-strategy simulation; SSICR-005 defines contextual Strategic Comparative Advantage Maps (SAMs). The present paper addresses the next transition:
@@ -112,6 +118,14 @@ Governed strategy generation, scoring and UIRTU-Relay selection
 **Stage E — Governed deployment.** Use trees to suggest, rank, or challenge strategies under authorized goals and limits. Require appropriate review for consequential actions.
 
 **Stage F — Revision.** Incorporate new evidence; log changed beliefs, retained disagreements, and authorization decisions.
+
+---
+
+![Fig-006-Strategic-Worldview-Forest.png](../figures/Fig-006-Strategic-Worldview-Forest.png)
+
+*Figure 6. From contextual strategic advantage evidence to plural, revisable worldview trees and governed strategic relay.*
+
+---
 
 ## 6. Conditional Principle Representation
 
@@ -371,16 +385,6 @@ The central research proposition is:
 **AI should broaden the strategic futures humans can understand and evaluate, not silently decide which future they must pursue.**
 
 ---
-
-## Suggested Figure Placement
-
-Insert `figures/Fig-006-Strategic-Worldview-Forest.png` immediately after Section 5 (*Map → Principle → Worldview*), when the figure is available:
-
-```markdown
-![Fig-006 — Strategic Worldview Forest](../figures/Fig-006-Strategic-Worldview-Forest.png)
-
-*Figure 6. From contextual strategic advantage evidence to plural, revisable worldview trees and governed strategic relay.*
-```
 
 ## Citation and Status Note
 

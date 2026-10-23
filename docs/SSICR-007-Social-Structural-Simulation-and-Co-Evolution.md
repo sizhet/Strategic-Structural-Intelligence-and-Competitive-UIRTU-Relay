@@ -51,6 +51,12 @@ Rules, standards, arbitration mechanisms, access controls, and collective agreem
 
 **Key distinction:** these levels interact but should not be collapsed into a single measure of “system size.” The novelty sought is change in strategic relationships and rules, not simply an increase in agent count.
 
+---
+
+![Fig-007-Social-Structural-Co-Evolution.png](../figures/Fig-007-Social-Structural-Co-Evolution.png)
+
+---
+
 ## 4. A Minimal Formal Model
 
 Let a simulation state at time *t* be
@@ -330,10 +336,6 @@ Social structural simulation offers a possible bridge between modular intelligen
 Large-scale UIRTU-Relay simulation could help discover context-dependent strategic advantages and the conditions under which cooperative or competitive institutions arise. Its value depends on transparent assumptions, strong baselines, independent counter-evidence, careful external validation, and human control of normative decisions. The research goal is a **revisable landscape of mechanisms, strategic options, and failure boundaries**—not a universal social predictor or an automated sovereign.
 
 ---
-
-## Suggested Figure Placement
-
-Insert `Fig-007-Social-Structural-Co-Evolution.png` immediately after **Section 3: Three Co-Evolving Structural Levels**, depicting the feedback between subject adaptation, relay-network changes, institutional formation, and evidence-driven model revision.
 
 ## Citation Guidance
 

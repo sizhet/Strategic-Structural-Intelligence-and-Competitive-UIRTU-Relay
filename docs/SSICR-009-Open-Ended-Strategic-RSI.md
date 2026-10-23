@@ -94,6 +94,14 @@ Four effects deserve separate measurement:
 
 A simulation that measures only the first effect cannot establish strategic superiority.
 
+---
+
+![Fig-007 — Social Structural Co-Evolution](../figures/Fig-007-Social-Structural-Co-Evolution.png)
+
+*Figure 7. Coupled evolution of strategic subjects, Relay architectures, strategies, and institutions.*
+
+---
+
 ## 5. Strategic Selection Is Contextual
 
 For strategy \(\pi\), Relay configuration \(R\), context \(c\), opponent population \(\Omega\), and evaluation horizon \(h\), define a vector of outcomes:
@@ -420,19 +428,6 @@ The long-term purpose is to increase the range of strategic possibilities that h
 > **Strategic intelligence grows not only by improving individual agents, but by learning how capabilities, Relay structures, strategies, and institutions co-evolve—while preserving the sovereignty of the subjects they serve.**
 
 ---
-
-## Suggested Figure Placement
-
-**Figure:** `figures/Fig-007-Social-Structural-Co-Evolution.png`  
-**Suggested insertion:** After Section 4, *From Private Improvement to Coupled Co-Evolution*, or after Section 14, *Institutional Co-Evolution*.
-
-Suggested Markdown insertion:
-
-```markdown
-![Fig-007 — Social Structural Co-Evolution](../figures/Fig-007-Social-Structural-Co-Evolution.png)
-
-*Figure 7. Coupled evolution of strategic subjects, Relay architectures, strategies, and institutions.*
-```
 
 ## Citation and Release Notes
 
