@@ -75,6 +75,12 @@ The equation is an evaluation template, not an assumption that all values can be
 
 The twelve formal hypotheses are defined in [`TESTABLE-HYPOTHESES.md`](TESTABLE-HYPOTHESES.md); unresolved assumptions are tracked in [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md).
 
+---
+
+![Fig-001-SSICR-Grand-Architecture.png](figures/Fig-001-SSICR-Grand-Architecture.png)
+
+---
+
 ## 4. Hypothesis-to-Experiment Register
 
 | Hypothesis | Primary comparison | Primary measurement | Initial gate |
@@ -200,6 +206,12 @@ A full Cartesian product may be prohibitively expensive; use a preregistered fra
 
 Primary effects are reported with uncertainty intervals and sensitivity analyses. At least one nontrivial benchmark has repeatable outcomes under independent reruns. A simulator that merely reproduces its embedded reward assumptions does not pass as evidence of strategic discovery.
 
+---
+
+![Fig-004-Massive-Multi-Strategy-Simulation.png](figures/Fig-004-Massive-Multi-Strategy-Simulation.png)
+
+---
+
 ## 9. Phase 3 — Strategic Advantage Map Validation (G3)
 
 **Objective:** Test whether structured maps improve strategic selection beyond simple scoreboards.
@@ -227,6 +239,12 @@ Decision regret; conditional rank accuracy; boundary precision/recall; calibrati
 ### Exit criteria
 
 SAM-guided decisions must show a preregistered benefit or a meaningful calibrated-abstention improvement over baselines on held-out conditions. If gains appear only on in-distribution test cases, mark the map as *restricted-scope* rather than generally validated.
+
+---
+
+![Fig-005-Strategic-Advantage-Landscape.png](figures/Fig-005-Strategic-Advantage-Landscape.png)
+
+---
 
 ## 10. Phase 4 — Strategic Principles and Worldview Forests (G4)
 
@@ -309,6 +327,12 @@ Use synthetic or low-stakes scenarios initially. Human-subject research may requ
 ### Exit criteria
 
 The interface must not degrade authorization control. Decision-quality improvements must be supported by preregistered measures rather than user preference alone. Evidence of increased automation bias or hidden goal drift triggers redesign.
+
+---
+
+![Fig-008-Human-Strategic-Sovereignty.png](figures/Fig-008-Human-Strategic-Sovereignty.png)
+
+---
 
 ## 13. Statistical Analysis Plan
 
@@ -594,13 +618,6 @@ SSICR should be validated as a chain of distinct claims: a well-formed strategic
 The governing research objective is not to automate humanity's strategic future. It is to turn AI-scale exploration into strategic understanding that people can inspect, challenge, revise, and authorize.
 
 ---
-
-## Suggested Figures
-
-- `figures/Fig-001-SSICR-Grand-Architecture.png` — after Section 3, to connect the framework to the validation layers.
-- `figures/Fig-004-Massive-Multi-Strategy-Simulation.png` — after Section 8, to show simulation and evaluation separation.
-- `figures/Fig-005-Strategic-Advantage-Landscape.png` — after Section 9, to illustrate conditional advantage and failure boundaries.
-- `figures/Fig-008-Human-Strategic-Sovereignty.png` — after Section 12, to show decision authority and revocation.
 
 ## Related SSICR Documents
 

@@ -90,6 +90,12 @@ Use a common reporting panel:
 
 Report the full vector rather than hiding tradeoffs inside one aggregate score.
 
+---
+
+![Fig-004-Massive-Multi-Strategy-Simulation.png](figures/Fig-004-Massive-Multi-Strategy-Simulation.png)
+
+---
+
 ## 4. Hypothesis Register
 
 | ID | Hypothesis | Primary falsification target | Priority |
@@ -160,6 +166,12 @@ The detailed tests follow. Each is falsifiable independently of the overall SSIC
 **Falsifier.** Boundary-aware method performs no better, or becomes systematically overconfident near distribution shifts.
 
 **Design note.** Include near-boundary adversarial examples and far-outside-support contexts; abstention may be a correct outcome.
+
+---
+
+![Fig-005-Strategic-Advantage-Landscape.png](figures/Fig-005-Strategic-Advantage-Landscape.png)
+
+---
 
 ## 9. H-05 — Counter-Evidence Reduces Goodhart Failure
 
@@ -349,6 +361,12 @@ Distinguish four operations:
 
 An apparent performance improvement that depends on unapproved goal substitution is classified as a **governance failure**, not an SSICR success. Consent, scope, auditability, and revocation are measured rather than assumed.
 
+---
+
+![Fig-008-Human-Strategic-Sovereignty.png](figures/Fig-008-Human-Strategic-Sovereignty.png)
+
+---
+
 ## 22. Experimental Artifact and Schema Contract
 
 Each study should publish, subject to legitimate confidentiality and safety limits:
@@ -503,12 +521,6 @@ The long-term aspiration is not a machine that decides the best future for every
 SSICR is a research hypothesis about the **structure of strategic intelligence**, not an established empirical result. Its key mechanisms—competitive Relay, cross-play, conditional advantage maps, worldview forests, counter-evidence, and structural RSI—can be tested separately. Its governance promise—human strategic sovereignty—must also be tested, not merely declared. The twelve hypotheses in this document provide a falsifiable path from conceptual architecture toward reproducible research, including explicit conditions under which the program should be revised or rejected.
 
 ---
-
-## Suggested Figures
-
-- `figures/Fig-004-Massive-Multi-Strategy-Simulation.png` — after Section 3, for the common testbed and cross-play design.
-- `figures/Fig-005-Strategic-Advantage-Landscape.png` — after Section 8, for ranking reversals and failure boundaries.
-- `figures/Fig-008-Human-Strategic-Sovereignty.png` — after Section 21, for authorization and governance gates.
 
 ## Citation
 

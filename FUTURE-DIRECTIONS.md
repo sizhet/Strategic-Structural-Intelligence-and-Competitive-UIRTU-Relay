@@ -363,8 +363,6 @@ The SSICR-specific contribution is to place these structural mechanisms in **str
 - [`Fig-007-Social-Structural-Co-Evolution.png`](figures/Fig-007-Social-Structural-Co-Evolution.png): institutional co-evolution.
 - [`Fig-008-Human-Strategic-Sovereignty.png`](figures/Fig-008-Human-Strategic-Sovereignty.png): governed delegation and decision authority.
 
-**Release note:** each figure link assumes the named standalone PNG exists under `figures/`. A composite image containing eight panels is not, by itself, eight independently addressable PNG files.
-
 ## 20. What Would Count as Progress?
 
 SSICR should be judged by progressively stronger evidence, not by the number of generated strategies, diagrams, or architectural components.
