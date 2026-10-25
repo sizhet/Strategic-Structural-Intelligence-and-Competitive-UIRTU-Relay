@@ -532,10 +532,6 @@ The output of massive strategic simulation should not be a single winning strate
 
 ---
 
-## Suggested Figure
-
-`figures/Fig-005-Strategic-Advantage-Landscape.png` — Context axes, competing strategy advantage regions, uncertainty bands, failure boundaries, and evidence links. Recommended placement: after Section 5, *Anatomy of an Advantage Region*.
-
 ## Related SSICR Documents
 
 - `docs/SSICR-001-From-Cooperative-to-Strategic-Relay.md`

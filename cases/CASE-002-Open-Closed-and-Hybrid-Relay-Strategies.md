@@ -91,6 +91,12 @@ Examples include open standards plus protected training data; public benchmarks 
 
 Hybrid is a **family of policies**, not a guaranteed compromise that dominates both alternatives.
 
+---
+
+![Fig-002-Cooperative-to-Competitive-Relay.png](../figures/Fig-002-Cooperative-to-Competitive-Relay.png)
+
+---
+
 ## 5. Parameterizing Strategy Rather Than Using Labels Alone
 
 Define a Relay policy vector:
@@ -197,6 +203,12 @@ A static opponent test is insufficient. The protocol includes:
 
 An apparently superior policy may owe its advantage to opponents that never adapt. Every SAM claim must identify the opponent adaptation class used in evaluation.
 
+---
+
+![Fig-004-Massive-Multi-Strategy-Simulation.png](../figures/Fig-004-Massive-Multi-Strategy-Simulation.png)
+
+---
+
 ## 11. Multi-Perspective Scoring
 
 Use a vector of outcomes rather than collapsing all goals into one unexamined score:
@@ -275,6 +287,12 @@ A SAM should encode each advantage region with:
 - policy recommendation status, which remains separate from authorization.
 
 Suggested map layers include: advantage region, robustness region, failure frontier, uncertainty layer, governance feasibility layer, and untested region.
+
+---
+
+![Fig-005-Strategic-Advantage-Landscape.png](../figures/Fig-005-Strategic-Advantage-Landscape.png)
+
+---
 
 ## 16. Example SAM Record
 
@@ -559,12 +577,6 @@ SSICR proposes that large-scale competitive simulation can support this inquiry 
 The intended product is therefore not an automated verdict that openness, closure, or hybridity always wins. It is a **versioned, counter-evidence-aware Strategic Advantage Map** that enlarges the space of informed and sovereign strategic choice.
 
 ---
-
-## Suggested Figures
-
-- **`figures/Fig-002-Cooperative-to-Competitive-Relay.png`** — place after Section 4 to distinguish Relay strategy families.
-- **`figures/Fig-004-Massive-Multi-Strategy-Simulation.png`** — place after Section 10 or Section 18 for cross-play and adaptive search.
-- **`figures/Fig-005-Strategic-Advantage-Landscape.png`** — place after Section 15 to show contextual advantage and failure boundaries.
 
 ## Research Context and Further Reading
 

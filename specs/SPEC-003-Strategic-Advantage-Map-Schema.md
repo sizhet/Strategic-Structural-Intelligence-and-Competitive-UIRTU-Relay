@@ -19,6 +19,10 @@ A Strategic Advantage Map (SAM) records where, relative to which alternatives, u
 
 ---
 
+![Fig-005-Strategic-Advantage-Landscape.png](../figures/Fig-005-Strategic-Advantage-Landscape.png)
+
+---
+
 ## 1. Purpose and Scope
 
 The purpose of SPEC-003 is to define a **Strategic Advantage Map** as a durable intelligence artifact rather than a leaderboard or a single winning-policy label.
@@ -708,11 +712,7 @@ Recommended metrics include conditional regret, ranking accuracy, boundary local
 
 These limitations motivate explicit uncertainty, OTHERS, adversarial validation, and human governance rather than promises of universal strategic optimization.
 
-## 29. Suggested Figure
-
-**`figures/Fig-005-Strategic-Advantage-Landscape.png`** — Place after Section 10 or Section 17. The figure should depict context-conditioned advantage regions, strategy rank reversals, uncertainty bands, failure boundaries, and OTHERS beyond the mapped domain. Distinguish measured regions from extrapolation.
-
-## 30. Related SSICR Documents
+## 29. Related SSICR Documents
 
 - `docs/SSICR-004-Massive-Multi-Strategy-Simulation.md` — evidence-generation mechanisms.
 - `docs/SSICR-005-Strategic-Comparative-Advantage-Maps.md` — conceptual theory behind this schema.
@@ -723,11 +723,11 @@ These limitations motivate explicit uncertainty, OTHERS, adversarial validation,
 - `specs/SPEC-002-Strategy-and-Simulation-Schema.md` — strategy, scenario, and experimental evidence contracts.
 - `specs/SPEC-004-Worldview-and-Counter-Evidence-Schema.md` — proposed downstream worldview schema.
 
-## 31. Research Context
+## 30. Research Context
 
 This proposed schema draws methodological inspiration from conditional treatment-effect estimation, robust decision-making, multi-objective optimization, game-theoretic strategy evaluation, simulation validation, scientific provenance, and model governance. These are established areas of study; the particular SSICR schema, SAM object model, and proposed integration are research designs requiring implementation and empirical testing.
 
-## 32. Conclusion
+## 31. Conclusion
 
 A Strategic Advantage Map is not a trophy for a winning strategy. It is a structured, revisable account of **where an advantage is observed, against what alternative, according to whose objectives, with what evidence, and subject to which uncertainties and failure boundaries**. By making these conditions explicit, SPEC-003 provides a proposed bridge from large-scale competitive simulation to portable strategic knowledge, while preserving counter-evidence, open structural growth, and the distinction between AI-supported evaluation and human strategic sovereignty.
 

@@ -201,6 +201,12 @@ The complete \(2^8\) design has 256 cells before seeds, strategies, and opponent
 
 Predefined shocks may include a change in research opportunity distribution, a disruption to shared infrastructure, a new evaluation standard, or a shift in collaboration costs. The experiment must record whether shocks were known at policy-design time.
 
+---
+
+![Fig-004-Massive-Multi-Strategy-Simulation.png](../figures/Fig-004-Massive-Multi-Strategy-Simulation.png)
+
+---
+
 ## 10. Transition Model
 
 Let \(Z_t\) be the shared environment, \(N_t\) the Relay network, and \(A_t\) the joint action profile. The simulator evolves according to:
@@ -402,6 +408,12 @@ authorization:
 
 A production record must use the canonical identifiers, types, and validation rules of the implemented SPEC-003 schema; this example illustrates concepts rather than claiming formal conformance.
 
+---
+
+![Fig-005-Strategic-Advantage-Landscape.png](../figures/Fig-005-Strategic-Advantage-Landscape.png)
+
+---
+
 ## 16. From Maps to Strategic Worldview Forests
 
 An organization may distill conditional findings into tentative principles, such as:
@@ -498,6 +510,12 @@ Randomly assign consenting participants in a synthetic decision task to:
 - an SSICR decision packet with advantage maps and counter-evidence.
 
 Measure comprehension, calibration, identification of failure conditions, ability to detect a misleading recommendation, and decision time. Predefine scoring and avoid interpreting participant agreement with AI as a measure of quality.
+
+---
+
+![Fig-008-Human-Strategic-Sovereignty.png](../figures/Fig-008-Human-Strategic-Sovereignty.png)
+
+---
 
 ## 21. Metrics and Reporting
 
@@ -680,12 +698,6 @@ Competitive AI R&D organizations provide a tractable, though still demanding, fi
 The most important transition is from **strategy generation** to **strategic understanding**: from millions of simulated alternatives to maps of comparative advantage, revisable principles, and intelligible choices for authorized human decision-makers. The simulation system may discover and recommend; it must not silently assume sovereignty over organizational or societal goals.
 
 ---
-
-## Suggested Figures
-
-- **Primary:** `figures/Fig-004-Massive-Multi-Strategy-Simulation.png` — insert after Section 9, showing subject strategies, opponent cross-play, scenario sampling, scoring, and validation.
-- **Secondary:** `figures/Fig-005-Strategic-Advantage-Landscape.png` — insert after Section 15, illustrating conditional advantage regions and failure boundaries.
-- **Optional:** `figures/Fig-008-Human-Strategic-Sovereignty.png` — reference from Section 20, showing the human authorization boundary.
 
 ## Research Context and Further Reading
 

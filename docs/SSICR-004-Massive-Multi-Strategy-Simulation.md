@@ -331,10 +331,6 @@ Massive Multi-Strategy Simulation is proposed as a general research instrument f
 
 ---
 
-## Suggested Figure
-
-`figures/Fig-004-Massive-Multi-Strategy-Simulation.png` — Strategy generation, multi-fidelity simulation, opponent populations, counter-evidence, scoring, and Advantage Map construction.
-
 ## Related SSICR Documents
 
 - `SSICR-001-From-Cooperative-to-Strategic-Relay.md`

@@ -18,6 +18,10 @@ This specification proposes interoperable, auditable representations for strateg
 
 ---
 
+![Fig-006-Strategic-Worldview-Forest.png](../figures/Fig-006-Strategic-Worldview-Forest.png)
+
+---
+
 ## 1. Scope and Normative Language
 
 This document specifies the data contracts and governance behavior for:
@@ -622,11 +626,7 @@ Accordingly, this specification should be treated as a disciplined research inte
 
 These are conceptual research relationships, not claims of validated implementations.
 
-## 34. Suggested Figure
-
-`figures/Fig-006-Strategic-Worldview-Forest.png` — place after Section 9. Depict multiple subject-owned worldview trees, SAM-to-principle abstraction, cross-tree challenges, OTHERS discovery, and separate epistemic and normative revision gates. An optional cross-reference is `figures/Fig-008-Human-Strategic-Sovereignty.png` after Section 15.
-
-## 35. Related SSICR Documents
+## 34. Related SSICR Documents
 
 - `docs/SSICR-005-Strategic-Comparative-Advantage-Maps.md`
 - `docs/SSICR-006-Strategic-Worldview-Forests.md`
@@ -638,7 +638,7 @@ These are conceptual research relationships, not claims of validated implementat
 - `specs/SPEC-003-Strategic-Advantage-Map-Schema.md`
 - `cases/CASE-003-Strategic-Worldview-Evolution.md`
 
-## 36. Citation
+## 35. Citation
 
 Tan, Sizhe, and GPT-Obot. (2026). *SPEC-004: Worldview and Counter-Evidence Schema*. Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR), version 1.0.0. Research specification. DOI pending.
 

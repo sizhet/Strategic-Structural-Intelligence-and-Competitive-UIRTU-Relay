@@ -20,6 +20,10 @@ The schema separates normative authority from empirical hypotheses, strategy def
 
 ---
 
+![Fig-004-Massive-Multi-Strategy-Simulation.png](../figures/Fig-004-Massive-Multi-Strategy-Simulation.png)
+
+---
+
 ## 1. Purpose and Scope
 
 This specification standardizes the **description and reporting** of competitive strategic experiments, not the internal architecture of every participating model or the truth of any simulator's predictions.
@@ -580,10 +584,6 @@ The architecture deliberately avoids a direct path from a high simulation score 
 The Strategy and Simulation Schema makes competitive UIRTU-Relay experiments more inspectable by treating **strategy, scenario, comparison, execution, evidence, and authorization** as distinct but connected artifacts. Its primary contribution is a disciplined interface between massive strategic exploration and justified comparative knowledge. Its core restriction is equally important: computational success in a modeled environment is neither universal strategic truth nor authorization to act. By preserving context, counter-evidence, uncertainty, and strategic sovereignty, the schema provides a foundation for open-ended strategic intelligence that can be examined, challenged, and revised.
 
 ---
-
-## Suggested Figure
-
-**`figures/Fig-004-Massive-Multi-Strategy-Simulation.png`** — Insert after Section 3 or Section 24 to show the progression from subject contracts and candidate strategies through cross-play simulation, evidence, and conditional advantage extraction.
 
 ## Related SSICR Documents
 

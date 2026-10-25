@@ -99,6 +99,12 @@ The forest is not a single global leaderboard. Distinct trees may rationally ran
 
 Each principle is a **candidate**, not a law. Each must carry a scope, comparator, evidence links, and falsification criteria.
 
+---
+
+![Fig-006-Strategic-Worldview-Forest.png](../figures/Fig-006-Strategic-Worldview-Forest.png)
+
+---
+
 ## 6. Experimental Stages
 
 <text-only architecture>
@@ -148,6 +154,12 @@ Simulation outputs must identify model version, run seed, intervention, observed
 
 ## 8. Stage B — Conditional Advantage Maps
 
+---
+
+![Fig-005-Strategic-Advantage-Landscape.png](../figures/Fig-005-Strategic-Advantage-Landscape.png)
+
+---
+
 For strategy \(s\), comparator \(b\), subject \(i\), context \(c\), horizon \(h\), and scoring perspective \(p\), define an estimated relative value:
 
 \[
@@ -191,6 +203,12 @@ Worldview updates are represented as explicit operations:
 All revisions preserve earlier versions and cite the evidence that motivated the change.
 
 ## 11. Epistemic and Normative Separation
+
+---
+
+![Fig-008-Human-Strategic-Sovereignty.png](../figures/Fig-008-Human-Strategic-Sovereignty.png)
+
+---
 
 A worldview has at least two logically distinct components:
 
@@ -460,15 +478,7 @@ Progression between phases should depend on predefined evidence thresholds, not 
 
 This case also builds conceptually on UCPSF scoring forests, SSI subject and worldview models, SIF open structural growth, and the program's counter-evidence and OTHERS mechanisms.
 
-## 27. Suggested Figures
-
-**Primary:** `figures/Fig-006-Strategic-Worldview-Forest.png` — place after Section 5 to show distinct worldview trees, cross-tree evidence links, and revision branches.
-
-**Secondary:** `figures/Fig-005-Strategic-Advantage-Landscape.png` — cite near Section 8 to illustrate context-conditioned advantage regions.
-
-**Governance:** `figures/Fig-008-Human-Strategic-Sovereignty.png` — cite near Section 11 to distinguish recommendation, authorization, and action.
-
-## 28. Conclusion
+## 27. Conclusion
 
 Strategic worldview evolution is best understood as a governed, evidence-linked process of revising how a subject interprets conditions, generates options, and applies instrumental principles. Its central artifact is not a single victorious ideology but a **plural, versioned forest of defeasible strategic models**. Competitive simulation supplies candidate evidence; advantage maps locate conditional strengths and failures; counter-evidence tests generalization; OTHERS invites structural discovery; and subject contracts retain authority over values and actions.
 

@@ -20,6 +20,10 @@ The proposed **Strategic Subject Contract (SSC)** identifies who acts, on whose 
 
 ---
 
+![Fig-003-Strategic-Subjects-and-Control-Planes.png](../figures/Fig-003-Strategic-Subjects-and-Control-Planes.png)
+
+---
+
 ## 1. Scope and Status
 
 ### 1.1 Scope
@@ -672,10 +676,6 @@ The central architectural commitment is straightforward:
 > **Strategic computation may be delegated. Strategic sovereignty must remain attributable, bounded, and revocable.**
 
 ---
-
-## Suggested Figure
-
-**`figures/Fig-003-Strategic-Subjects-and-Control-Planes.png`** — Strategic subject boundaries, principal-to-delegate grants, policy control plane, Relay interfaces, scoring ownership, and evidence feedback. Recommended placement: after Section 2.
 
 ## Related SSICR Documents
 
