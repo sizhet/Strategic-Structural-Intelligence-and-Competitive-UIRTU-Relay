@@ -4,7 +4,6 @@
 **Version:** 1.0.0 — Research framework / proposed hypotheses  
 **Authors:** Sizhe Tan & GPT-Obot  
 **Status:** Conceptual architecture and validation agenda; no empirical results claimed  
-**Suggested figure:** `figures/Fig-007-Social-Structural-Co-Evolution.png`
 
 ## Abstract
 

@@ -95,7 +95,11 @@ The architecture consists of seven interacting functions, not a rigid hierarchy 
               identities | resources | OTHERS
 ```
 
-**Figure placement:** Insert `../figures/Fig-001-SSICR-Grand-Architecture.png` after this section when the figure is available. Do not add a broken image reference before the asset exists.
+---
+
+![Fig-001-SSICR-Grand-Architecture.png](../figures/Fig-001-SSICR-Grand-Architecture.png)
+
+---
 
 ### 3.1 The interfaces matter more than a monolithic implementation
 
@@ -173,7 +177,11 @@ A minimum record contains: strategy family and version; subject and objective pe
 
 Maps should retain losing and inconclusive strategies when informative. Evidence cannot be overwritten by a new winner. A map should state where it has **not** been tested and distinguish simulated superiority from demonstrated real-world transfer.
 
-**Figure placement:** `../figures/Fig-005-Strategic-Advantage-Landscape.png` can illustrate regions and failure boundaries.
+---
+
+![Fig-005-Strategic-Advantage-Landscape.png](../figures/Fig-005-Strategic-Advantage-Landscape.png)
+
+---
 
 ## 8. From Maps to Strategic Worldview Forests
 
@@ -193,7 +201,11 @@ Cooperative, competitive, defensive, adaptive, and institutional orientations ma
 
 Evidence can justify revision of descriptive beliefs, causal models, and conditional strategic principles. It does not automatically authorize a change in human values, institutional mandates, or action permissions. This separation is a non-negotiable governance invariant.
 
-**Figure placement:** `../figures/Fig-006-Strategic-Worldview-Forest.png` can show map-to-principle-to-worldview evolution.
+---
+
+![Fig-006-Strategic-Worldview-Forest.png](../figures/Fig-006-Strategic-Worldview-Forest.png)
+
+---
 
 ## 9. Open-Ended Strategic RSI and Co-Evolution
 

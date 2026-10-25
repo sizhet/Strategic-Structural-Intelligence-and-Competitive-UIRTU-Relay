@@ -16,12 +16,6 @@ Competitive and adversarial UIRTU-Relay systems combine autonomous strategic sub
 
 **Keywords:** structural intelligence; UIRTU-Relay; multi-agent simulation; strategic search; competitive co-evolution; adaptive compute; comparative advantage; strategic advantage map; counter-evidence; human strategic sovereignty.
 
----
-
-![Fig-004-Massive-Multi-Strategy-Simulation.png](../figures/Fig-004-Massive-Multi-Strategy-Simulation.png)
-
----
-
 ## 1. The Problem: Strategy Spaces Beyond Direct Human Evaluation
 
 A strategic subject may control multiple RSI/UIRTU subsystems and use them to pursue long-horizon objectives. When other subjects adapt their own strategies and Relay structures, outcomes depend on interactions rather than on any subject's isolated optimization. The search space grows across strategy choices, opponent policies, environment conditions, resource allocations, Relay graphs, and time horizons.
@@ -96,7 +90,11 @@ The proposed pipeline has eight interacting functions:
 
 The loop is bidirectional: map gaps trigger new scenario generation; counterexamples trigger structural revisions; new evidence can invalidate prior rankings.
 
-**Figure placement:** Insert `../figures/Fig-004-Massive-Multi-Strategy-Simulation.png` after this section when the figure is available.
+---
+
+![Fig-004-Massive-Multi-Strategy-Simulation.png](../figures/Fig-004-Massive-Multi-Strategy-Simulation.png)
+
+---
 
 ## 6. Strategy Representation and Open-Ended Generation
 

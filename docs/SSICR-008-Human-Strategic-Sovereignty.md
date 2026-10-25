@@ -16,12 +16,6 @@ Large-scale AI systems can generate, simulate, compare, and revise strategic opt
 
 **Keywords:** human strategic sovereignty; UIRTU-Relay; strategic decision support; multi-agent simulation; strategic advantage maps; worldview forests; human-AI governance; counter-evidence; corrigibility; strategic agency.
 
----
-
-![Fig-008-Human-Strategic-Sovereignty.png](../figures/Fig-008-Human-Strategic-Sovereignty.png)
-
----
-
 ## 1. The central problem
 
 The growing capacity of AI systems to produce strategic alternatives introduces an asymmetry:
@@ -88,7 +82,11 @@ Audited Action and Observed Feedback
 
 This is a **logical architecture**, not a requirement that all implementations be centralized or strictly sequential. Critique and human intervention can occur at any stage.
 
-**Suggested figure:** `figures/Fig-008-Human-Strategic-Sovereignty.png` immediately after this section.
+---
+
+![Fig-008-Human-Strategic-Sovereignty.png](../figures/Fig-008-Human-Strategic-Sovereignty.png)
+
+---
 
 ## 5. The strategic authority contract
 
@@ -361,10 +359,6 @@ Human Strategic Sovereignty is a design objective for the era of AI-generated st
 > **AI should not merely make more strategic decisions for humans. It should help humans perceive a wider space of possible futures, understand the costs and boundaries of their choices, and strengthen their capacity to choose their own future.**
 
 ---
-
-## Suggested figure
-
-- `figures/Fig-008-Human-Strategic-Sovereignty.png` — insert after Section 4; depict strategic search, evidence compression, authorization boundaries, and feedback.
 
 ## Citation guidance
 
