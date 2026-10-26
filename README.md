@@ -5,7 +5,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0  
 **Status:** Research framework, proposed specifications, and illustrative case studies  
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 
 ---
 
@@ -199,7 +199,7 @@ Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay/
 ├── CHANGELOG.md
 ├── CITATION.cff
 ├── .zenodo.json
-├── LICENSE
+├── LICENSE.txt
 ├── docs/        # 10 research papers
 ├── specs/       # 4 proposed technical contracts
 ├── cases/       # 3 illustrative research cases

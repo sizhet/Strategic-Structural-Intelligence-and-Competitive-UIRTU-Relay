@@ -6,7 +6,7 @@
 **Project:** Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)  
 **Version:** 1.0.0  
 **Status:** Proposed hypotheses and preregistration-ready experimental designs; no empirical results claimed  
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 
 ---
 
@@ -526,5 +526,15 @@ SSICR is a research hypothesis about the **structure of strategic intelligence**
 
 Tan, Sizhe, and GPT-Obot. (2026). *SSICR: Testable Hypotheses — Falsifiable Research Program for Strategic Structural Intelligence and Competitive UIRTU-Relay*. Version 1.0.0. Research design manuscript. DOI pending.
 
-**License:** Refer to the repository's `LICENSE` file.  
+**License:** Refer to the repository's `LICENSE.txt` file.  
 **Empirical status:** Hypotheses and protocols only; no experiments or findings are represented as completed.
+
+---
+
+## 📚 DBM-SI Series Navigation
+
+See:\
+[./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md)
+
+---
+

@@ -24,7 +24,7 @@ This project follows the principles of [Keep a Changelog](https://keepachangelog
 
 ---
 
-## [1.0.0] - 2026-10-22
+## [1.0.0] - 2026-10-26
 
 ### Added — Research Framework
 
@@ -106,7 +106,7 @@ Before publishing the GitHub v1.0.0 release and requesting an archival DOI:
 1. Verify that the seventh core paper uses the canonical filename `SSICR-007-Social-Structural-Simulation-and-Co-Evolution.md` (not `SICR-007-...`).
 2. Verify the eight individual PNG files exist in `figures/` and render correctly.
 3. Confirm all relative links and image references resolve on GitHub.
-4. Confirm `CITATION.cff`, `.zenodo.json`, `LICENSE`, and release notes agree on authorship, title, version, and licensing.
+4. Confirm `CITATION.cff`, `.zenodo.json`, `LICENSE.txt`, and release notes agree on authorship, title, version, and licensing.
 5. Confirm the GitHub release tag and Zenodo archive metadata are consistent; add the assigned DOI only after it exists.
 6. Preserve explicit distinctions between proposals, hypothetical examples, tests planned, and experiments actually performed.
 

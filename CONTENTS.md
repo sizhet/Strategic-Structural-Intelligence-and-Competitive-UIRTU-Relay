@@ -4,7 +4,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0  
 **Status:** Research framework, specifications, and illustrative case studies  
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 
 ---
 
@@ -174,7 +174,7 @@ Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay/
 ├── CHANGELOG.md
 ├── CITATION.cff
 ├── .zenodo.json
-├── LICENSE
+├── LICENSE.txt
 ├── docs/
 │   ├── SSICR-001-From-Cooperative-to-Strategic-Relay.md
 │   ├── SSICR-002-Strategic-Subjects-and-Relay-Boundaries.md
@@ -217,7 +217,7 @@ Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay/
 **Release target:** v1.0.0.  
 **DOI:** Pending; insert the minted DOI after archival release rather than inventing one.
 
-Refer to [CITATION.cff](CITATION.cff), [.zenodo.json](.zenodo.json), [CHANGELOG.md](CHANGELOG.md), and [LICENSE](LICENSE) for canonical release metadata and licensing terms once committed. This index does not independently assert a license or a published DOI.
+Refer to [CITATION.cff](CITATION.cff), [.zenodo.json](.zenodo.json), [CHANGELOG.md](CHANGELOG.md), and [LICENSE.txt](LICENSE.txt) for canonical release metadata and licensing terms once committed. This index does not independently assert a license or a published DOI.
 
 ### Pre-release consistency checklist
 

@@ -4,7 +4,7 @@
 **Project:** Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)  
 **Version:** 1.0.0  
 **Status:** Open research agenda; questions and hypotheses, not established findings  
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 
 ---
 
@@ -549,4 +549,4 @@ SSICR therefore treats open questions, counter-evidence, negative results, and g
 
 Tan, Sizhe, and GPT-Obot. (2026). *Open Questions: Strategic Structural Intelligence and Competitive UIRTU-Relay*. SSICR research repository, version 1.0.0. DOI pending.
 
-**License:** Refer to the repository `LICENSE` file for applicable terms.
+**License:** Refer to the repository `LICENSE.txt` file for applicable terms.

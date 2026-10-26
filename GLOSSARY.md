@@ -3,7 +3,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0  
 **Status:** Research terminology and proposed operational definitions  
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 
 ---
 

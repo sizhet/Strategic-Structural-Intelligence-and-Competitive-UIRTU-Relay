@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use this research framework, please cite this repository using
   the metadata provided here. A DOI will be added after the first Zenodo release.
-type: software
+type: generic
 title: 'Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)'
 authors:
   - family-names: Tan
@@ -17,7 +17,7 @@ abstract: >-
   specifications, illustrative cases, and a proposed validation roadmap;
   its hypotheses are not presented as empirically established findings.
 version: 1.0.0
-date-released: 2026-10-22
+date-released: 2026-10-26
 repository-code: 'https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay'
 url: 'https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay'
 keywords:

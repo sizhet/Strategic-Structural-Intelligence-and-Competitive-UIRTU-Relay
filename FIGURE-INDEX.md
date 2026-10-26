@@ -4,15 +4,13 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0  
 **Status:** Research illustration index and repository integration guide  
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 
 ---
 
 ## 1. Purpose and Publication Status
 
 This index defines the eight canonical SSICR figures, their intended intellectual roles, and recommended placements throughout the repository. Figures are **conceptual research diagrams**, not measured empirical findings or proof of the proposed architecture.
-
-**Important asset status:** An eight-panel composite infographic has been generated. The eight canonical, individually named PNG assets listed below have **not yet been verified as separate files**. The links in this index are *target repository paths*, and will work only after each corresponding image is separately created or exported and committed under `figures/`. Do not claim all eight independent figures are already present solely because the composite exists. Check readability of labels after any panel export.
 
 ## 2. Canonical Figure Catalog
 
