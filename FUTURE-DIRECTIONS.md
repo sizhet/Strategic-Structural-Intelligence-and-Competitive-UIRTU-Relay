@@ -26,9 +26,9 @@ A strategy's apparent quality depends on its subject, objectives, opponents, env
 
 A useful representation is:
 
-\[
+$$
 A(s \mid c, o, p, h, b, E)
-\]
+$$
 
 where \(s\) is a candidate strategy; \(c\) the environment; \(o\) the opponent or counterpart distribution; \(p\) the scoring perspective; \(h\) the horizon; \(b\) the resource and authority budget; and \(E\) the available evidence. The expression denotes a *contextual assessment*, not a guaranteed causal effect or objective truth.
 

@@ -32,19 +32,19 @@ A positive result requires evidence on **all three axes**: predictive or decisio
 
 Let a strategic episode be
 
-\[
+$$
  e=(s,\pi,\pi_{-s},c,h,p,\omega,a),
-\]
+$$
 
 where \(s\) is a focal subject; \(\pi\) its strategy; \(\pi_{-s}\) the opponent or partner profile; \(c\) environmental and institutional context; \(h\) decision horizon; \(p\) scoring perspective; \(\omega\) stochastic realization; and \(a\) the principal's authorization envelope.
 
 An outcome \(Y(e)\) is measured separately for each authorized scoring perspective. Comparative advantage is **relative and conditional**:
 
-\[
+$$
  \Delta(\pi,\pi_0\mid c,\pi_{-s},h,p)
  =\mathbb E[Y(\pi,\pi_{-s},c,h,p)]
  -\mathbb E[Y(\pi_0,\pi_{-s},c,h,p)].
-\]
+$$
 
 The baseline \(\pi_0\), perspective \(p\), and context \(c\) must be disclosed. There is no assumption of a universal scalar social welfare function or globally optimal worldview.
 

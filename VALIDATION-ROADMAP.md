@@ -54,9 +54,9 @@ Every experiment must retain unsuccessful strategies, counterexamples, null resu
 
 Let strategy `s`, comparator `b`, context `c`, opponent `o`, horizon `t`, and authorized scoring perspective `p` define an advantage claim:
 
-\[
+$$
 \Delta(s,b\mid c,o,t,p) = \mathbb{E}[U_p(s\mid c,o,t)] - \mathbb{E}[U_p(b\mid c,o,t)].
-\]
+$$
 
 The equation is an evaluation template, not an assumption that all values can be reduced to one universal utility. Incompatible or unmeasured outcomes must be represented explicitly.
 
