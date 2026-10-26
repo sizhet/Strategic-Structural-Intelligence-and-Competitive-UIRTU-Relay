@@ -50,9 +50,9 @@ Consequently, MMSS is organized around **conditional performance distributions**
 
 Let a simulation instance be
 
-\[
+$$
 \mathcal{M}=(\mathcal{N},\mathcal{S},\{\mathcal{A}_i\},P,\{O_i\},\{U_i\},\mathcal{G},\mathcal{K},H),
-\]
+$$
 
 where \(\mathcal{N}\) is the set of strategic subjects, \(\mathcal{S}\) the environment state space, \(\mathcal{A}_i\) the permitted action space, \(P\) the transition mechanism, \(O_i\) the subject-specific observation mechanism, \(U_i\) the authorized utility or multidimensional evaluation specification, \(\mathcal{G}\) the evolving Relay graphs, \(\mathcal{K}\) the contracts and governance constraints, and \(H\) the horizon.
 
@@ -60,18 +60,18 @@ A candidate \(\pi_i=(\pi_i^{\mathrm{decision}},G_i,\rho_i)\) contains a decision
 
 For evaluation perspective \(p\), define
 
-\[
+$$
 V_p(\pi_i\mid c,\Pi_{-i})
 =\mathbb{E}_{\pi_{-i}\sim\Pi_{-i},\,\omega}
 \left[u_p\bigl(Y(\tau(\pi_i,\pi_{-i},c,\omega))\bigr)\right],
-\]
+$$
 
 where \(\omega\) captures stochastic variation and \(\Pi_{-i}\) is a declared opponent-policy distribution. A relative advantage against baseline \(b\) is
 
-\[
+$$
 \Delta_p(\pi_i,b\mid c,\Pi_{-i})
 =V_p(\pi_i\mid c,\Pi_{-i})-V_p(b\mid c,\Pi_{-i}).
-\]
+$$
 
 These expectations are estimated with finite samples and reported with uncertainty. Multi-objective outcomes should retain Pareto structure when no authorized scalarization exists. The model is descriptive and testable, not a proof of optimality.
 
@@ -115,9 +115,9 @@ Every generated candidate must pass contract, authorization, and safety validati
 
 A robust search explores a joint space
 
-\[
+$$
 \Omega=\Pi\times\mathcal{C}\times\mathcal{P}_{-i}\times\mathcal{G}\times\mathcal{H},
-\]
+$$
 
 with candidate policies \(\Pi\), contexts \(\mathcal{C}\), opponent populations \(\mathcal{P}_{-i}\), Relay graphs \(\mathcal{G}\), and horizons \(\mathcal{H}\). Exhaustive enumeration is generally infeasible.
 
@@ -137,12 +137,12 @@ Massive compute should be allocated selectively:
 
 A scheduling heuristic can prioritize uncertain candidates with plausible high value while reserving a fixed budget for exploration and negative controls. Example acquisition score:
 
-\[
+$$
 Q(\pi,c)=\widehat{\Delta}(\pi,c)
 +\beta\,\widehat{\sigma}(\pi,c)
 +\lambda\,N(\pi,c)
 -\mu\,\widehat{\mathrm{Cost}}(\pi,c),
-\]
+$$
 
 where \(N\) measures meaningful novelty. This is an illustrative heuristic, not a calibrated formula. Avoid repeatedly selecting only currently high-scoring strategies; retain diverse families and tail-risk probes.
 
@@ -199,12 +199,12 @@ See forthcoming `SPEC-003-Strategic-Advantage-Map-Schema.md` for a machine-reada
 
 A Strategic Worldview Forest organizes validated observations into context-sensitive principles, causal hypotheses, and decision heuristics. The transformation is:
 
-\[
+$$
 \text{Simulation Evidence}
 \rightarrow\text{Advantage Regions}
 \rightarrow\text{Candidate Principles}
 \rightarrow\text{Worldview Revision}.
-\]
+$$
 
 Worldviews can guide subsequent strategy generation and attention allocation, but must remain open to counter-evidence. Distinguish **epistemic revision** (updating beliefs about what works) from **normative change** (altering the subject's authorized values and objectives). The latter requires explicit governance and cannot be inferred from high simulation scores.
 

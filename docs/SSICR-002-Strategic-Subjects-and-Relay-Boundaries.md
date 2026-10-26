@@ -49,9 +49,9 @@ An **institution** is a relatively persistent rule or governance structure const
 
 For simulation and interoperability, represent subject *i* at time *t* as:
 
-\[
+$$
 S_i(t) = \langle I_i, O_i, V_i, A_i, R_i, M_i, H_i, B_i, U_i \rangle_t
-\]
+$$
 
 where:
 
@@ -159,9 +159,9 @@ Cooperation and competition are not mutually exclusive attributes of entire orga
 
 For two subjects *i* and *j*, let:
 
-\[
+$$
 R_{ij}(t, c) \in \{\text{cooperative},\text{competitive},\text{adversarial},\text{mixed},\text{undetermined}\}
-\]
+$$
 
 where *c* is a specified context. This categorical representation is intentionally coarse; richer models may represent continuous alignment, asymmetric dependence, bargaining power, and uncertainty.
 
@@ -175,9 +175,9 @@ We propose **Open-Subject Modeling**: begin with explicit, limited models; recor
 
 A subject model may include:
 
-\[
+$$
 \text{Subject Evidence} = \text{Modeled Features} + \text{Residual / OTHERS Evidence}
-\]
+$$
 
 This expression is conceptual, not an additive physical law. OTHERS is a governed evidence space, **not** an unconstrained explanation for model failures.
 
@@ -197,9 +197,9 @@ A strategic subject may maintain its own control plane and scoring forest. Cross
 
 For strategy \(\pi_i\) under context \(c\), opponent configuration \(\Pi_{-i}\), and horizon \(h\), write:
 
-\[
+$$
 J_i(\pi_i \mid c, \Pi_{-i}, h; V_i)
-\]
+$$
 
 The function depends on the subject's valuation \(V_i\). A strategy can score well for one subject and poorly for another without either score being mathematically erroneous.
 
@@ -229,9 +229,9 @@ The research focus here is defensive: preserving subject boundaries and testing 
 
 A Strategic Advantage Map should preserve the context and subject perspective behind every comparative result. A record should minimally bind:
 
-\[
+$$
 (\text{subject},\text{strategy},\text{context},\text{opponents},\text{horizon},\text{metric},\text{evidence})
-\]
+$$
 
 A claim such as “distributed relay is superior” is incomplete without these qualifiers. Advantage regions should be accompanied by failure boundaries, confidence, and counter-evidence.
 

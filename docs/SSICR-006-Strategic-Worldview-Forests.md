@@ -125,9 +125,9 @@ Governed strategy generation, scoring and UIRTU-Relay selection
 
 A candidate principle can be expressed as:
 
-\[
+$$
 P_j=(C_j,M_j,A_j,O_j,B_j,E_j,Q_j)
-\]
+$$
 
 where *C* is the applicable context, *M* a hypothesized mechanism, *A* an action or structural pattern, *O* expected outcome distribution, *B* boundary or failure conditions, *E* evidence and counter-evidence provenance, and *Q* confidence/quality annotations.
 
@@ -141,9 +141,9 @@ This is a **testable candidate**, not an established empirical law. A principle 
 
 Let *W* denote a worldview tree, *s* a candidate strategy, and *c* a context. A perspective-specific assessment can be written:
 
-\[
+$$
 V_W(s,c)=F_W\bigl(\mathcal{D}(s,c),\mathcal{R}(s,c),\mathcal{U}(s,c)\bigr)
-\]
+$$
 
 where *D* denotes outcome distributions, *R* robustness/failure evidence, and *U* uncertainty. The function *F* depends on the perspective and authorized objectives. It need not reduce to a single globally comparable number.
 
@@ -167,14 +167,14 @@ These are heuristic perspectives, not an exhaustive taxonomy or validated perfor
 
 A governed decision loop is:
 
-\[
+$$
 \text{Context and evidence}
 \rightarrow \text{Worldview-conditioned interpretation}
 \rightarrow \text{Candidate strategies}
 \rightarrow \text{Simulation and scoring}
 \rightarrow \text{Authorized relay choice}
 \rightarrow \text{Feedback}
-\]
+$$
 
 Worldviews influence not only final rankings but also which questions are asked, which opponents are modeled, which unknowns are measured, and which strategies are considered. This introduces a serious risk of **endogenous blind spots**: a worldview may systematically avoid evidence that could falsify it. Counter-worldview testing and deliberate exploration are therefore mandatory research features.
 

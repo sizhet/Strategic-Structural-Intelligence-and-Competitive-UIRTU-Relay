@@ -100,13 +100,13 @@ Let:
 
 Let the evaluated outcome be \(J_i(\pi,c,\omega,m,h,p,\xi)\). The conditional advantage against \(\pi_0\) is defined as:
 
-\[
+$$
 \Delta_i(\pi,\pi_0\mid c,Q,m,h,p)
 =\mathbb E_{\omega,\xi}\left[
 J_i(\pi,c,\omega,m,h,p,\xi)
 -J_i(\pi_0,c,\omega,m,h,p,\xi)
 \right].
-\]
+$$
 
 This definition presumes a common, authorized scoring scale. If perspectives cannot be combined legitimately, the map retains a **vector of outcomes** rather than forcing a scalar total order.
 
@@ -120,10 +120,10 @@ When feasible, run the candidate and comparator under matched scenarios, opponen
 
 A supplementary statistic is:
 
-\[
+$$
 W_i(\pi,\pi_0\mid c,Q)=
 \Pr\big(J_i(\pi)>J_i(\pi_0)\mid c,Q\big).
-\]
+$$
 
 Win probability and mean advantage answer different questions. A strategy may win often but fail catastrophically in a minority of cases.
 
@@ -131,10 +131,10 @@ Win probability and mean advantage answer different questions. A strategy may wi
 
 Represent scoring as:
 
-\[
+$$
 \mathbf J_i=(\text{quality},-\text{cost},\text{resilience},
 \text{adaptability},\text{compliance},\ldots).
-\]
+$$
 
 Report Pareto comparisons and constraint violations before applying optional, explicitly authorized aggregation weights. Scoring sovereignty remains with the subject or legitimate governing authority.
 
@@ -144,10 +144,10 @@ An **advantage region** is a subset \(R\subseteq\mathcal C\) in which evidence s
 
 For a chosen decision threshold \(\delta\), one possible conservative definition is:
 
-\[
+$$
 R_{\pi,\pi_0}^{\delta}
 =\{c: L_{\alpha}(\Delta_i(\pi,\pi_0\mid c))>\delta\},
-\]
+$$
 
 where \(L_{\alpha}\) is an appropriate lower confidence or credible bound under a declared statistical procedure. This is **one proposed operationalization**, not a universal rule. Multiple comparisons, adaptive search, correlated trials, and uncertainty in the simulator require explicit treatment.
 
@@ -234,11 +234,11 @@ Average performance alone is insufficient. Additional measures can include:
 
 For illustration, conditional regret may be expressed as:
 
-\[
-\operatorname{Regret}(\pi,c)
+$$
+operatorname{Regret}(\pi,c) 
 =\max_{\pi'\in\Pi_{\mathrm{feasible}}(c)}
 \mathbb E[J_i(\pi',c)]-\mathbb E[J_i(\pi,c)].
-\]
+$$
 
 The feasible strategy set and evaluation perspective must be declared. In a multi-agent adaptive setting, the comparator may induce different opponent responses; this issue must be modeled rather than ignored.
 

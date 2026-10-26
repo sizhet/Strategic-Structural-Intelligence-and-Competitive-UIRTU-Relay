@@ -96,9 +96,9 @@ Situation Model <--> Opponent / Partner Models
 
 In a multi-subject environment, there is no presumption of a single objective function. Subject *i* maintains a set of evaluators indexed by perspective *p*, scenario *c*, and horizon *h*:
 
-\[
+$$
 \mathcal{F}_i = \{ S_{i,p,c,h} : (\pi,\omega) \mapsto (v,u,e) \},
-\]
+$$
 
 where \(\pi\) is a candidate strategy, \(\omega\) is a simulated outcome, \(v\) is a score or vector of scores, \(u\) describes uncertainty, and \(e\) references supporting evidence.
 
@@ -119,26 +119,26 @@ An SSF should retain raw measurements and their provenance. Weighted scalar scor
 
 Let \(\pi_i\) be subject *i*'s strategy, \(\boldsymbol{\pi}_{-i}\) the strategies of other subjects, \(c\) the environment, and \(h\) the evaluation horizon. A contextual performance measure is:
 
-\[
+$$
 V_i(\pi_i\mid c,\boldsymbol{\pi}_{-i},h,\theta_i),
-\]
+$$
 
 where \(\theta_i\) represents authorized scoring preferences. Since opponents are not fully known, evaluation uses an ensemble of opponent hypotheses \(q\):
 
-\[
+$$
 \widehat V_i(\pi_i\mid c,h)
 = \mathbb E_{\boldsymbol{\pi}_{-i}\sim q}
 \left[V_i(\pi_i\mid c,\boldsymbol{\pi}_{-i},h,\theta_i)\right].
-\]
+$$
 
 This expectation is a modeling convenience, not a guarantee that the distribution \(q\) is correct. Robust alternatives should test worst-case or distribution-shifted opponents.
 
 For two strategies \(a\) and \(b\), a conditional advantage estimate is:
 
-\[
+$$
 \Delta_i(a,b\mid c,h,q)
 = \widehat V_i(a\mid c,h,q)-\widehat V_i(b\mid c,h,q).
-\]
+$$
 
 Positive \(\Delta_i\) indicates an advantage *under the stated model and scoring perspective*, not a universal superiority claim. This usage of comparative advantage is broader than the strict opportunity-cost definition in classical trade theory.
 
@@ -146,10 +146,10 @@ Positive \(\Delta_i\) indicates an advantage *under the stated model and scoring
 
 Selection may be multi-objective, constraint-aware, and uncertainty-sensitive. An illustrative policy is:
 
-\[
-\pi_i^* \in \operatorname{ParetoFront}
+$$
+\pi_i^* \in operatorname{ParetoFront}
 \left\{\mathbf V_i(\pi): \pi\in\Pi_i,\; g_i(\pi)\leq 0\right\},
-\]
+$$
 
 where \(g_i\) represents authorized constraints. The result is a set of non-dominated candidates, not necessarily one winning strategy.
 
@@ -182,9 +182,9 @@ A short-horizon strategy may win immediate tasks while undermining future adapta
 
 An illustrative discounted utility is:
 
-\[
+$$
 J_i(\pi)=\mathbb E\left[\sum_{t=0}^{T}\gamma_i^t u_i(s_t,a_t)\right],
-\]
+$$
 
 but the scalar expression is insufficient by itself: scenario uncertainty, rare catastrophic outcomes, strategic dependency, and non-compensable constraints must be reported separately.
 

@@ -159,9 +159,9 @@ Therefore, strategic compression should preserve at least:
 
 A Strategic Advantage Map is not a universal ranking. It is a structured mapping from strategy, context, opponents, horizon, and evaluation perspective to estimated outcomes and uncertainty:
 
-\[
+$$
 \mathcal{M}: (\pi, c, o, h, p) \mapsto (\hat{u}, \mathcal{U}, \mathcal{F}, \mathcal{E})
-\]
+$$
 
 where \(\hat{u}\) denotes estimated performance, \(\mathcal{U}\) uncertainty, \(\mathcal{F}\) failure boundaries, and \(\mathcal{E}\) supporting and opposing evidence. These estimates are **conditional on the simulation and measurement design**.
 
@@ -250,20 +250,20 @@ Human preference or satisfaction alone does not establish informed agency; users
 
 For subject \(i\), a strategy decision can be represented as:
 
-\[
-\pi_i^* \in \operatorname{argmax}_{\pi \in \Pi_i^{\mathrm{authorized}}}
+$$
+\pi_i^* \in operatorname{argmax}_{\pi \in \Pi_i^{\mathrm{authorized}}}
 \mathbb{E}_{m \sim \mathcal{Q}}[U_i(\pi,m)]
-\]
+$$
 
 subject to:
 
-\[
+$$
 G_i(\pi) \leq 0, \qquad
 R_i(\pi) \leq \rho_i, \qquad
-\operatorname{Approve}_i(\pi)=1
-\]
+operatorname{Approve}_i(\pi)=1
+$$
 
-Here \(\mathcal{Q}\) is a specified distribution or ensemble of plausible environments, \(G_i\) captures hard constraints, \(R_i\) a chosen risk measure, and \(\operatorname{Approve}_i\) an applicable authorization predicate. This is an illustrative optimization formulation; it does not solve value aggregation, institutional legitimacy, or model misspecification.
+Here \(\mathcal{Q}\) is a specified distribution or ensemble of plausible environments, \(G_i\) captures hard constraints, \(R_i\) a chosen risk measure, and \(operatorname{Approve}_i\) an applicable authorization predicate. This is an illustrative optimization formulation; it does not solve value aggregation, institutional legitimacy, or model misspecification.
 
 The AI may identify a Pareto set or conditional advantage regions instead of one optimum. The authorized subject chooses among them under its governance rules.
 

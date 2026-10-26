@@ -109,9 +109,9 @@ Each layer should publish versioned inputs, outputs, assumptions, provenance, an
 
 A minimal subject model is
 
-\[
+$$
 S_i = (I_i, O_i, R_i, B_i, W_i, \Pi_i, A_i, E_i),
-\]
+$$
 
 where identity \(I_i\), objectives \(O_i\), resources \(R_i\), boundaries \(B_i\), worldview \(W_i\), strategy set \(\Pi_i\), authorized actions \(A_i\), and evidence state \(E_i\) are explicit but incomplete. This tuple is a **proposed schema**, not a validated behavioral law.
 
@@ -127,9 +127,9 @@ A strategic control plane coordinates scenario interpretation, candidate constru
 
 For strategy \(\pi\), context \(c\), opponent configuration \(o\), perspective \(p\), and horizon \(h\), define an illustrative evaluation function:
 
-\[
+$$
 Q(\pi \mid c,o,p,h) = \mathbb{E}[U_p(\pi,c,o,h)] - \lambda_p\,\mathrm{Risk}(\pi,c,o,h) - \mu_p\,\mathrm{Cost}(\pi,c,o,h).
-\]
+$$
 
 Weights and utility definitions are perspective-dependent, externally governed, and subject to sensitivity analysis. A single scalar score can obscure non-compensable constraints; therefore, report the underlying multi-objective vector, Pareto trade-offs, and feasibility status alongside any aggregation.
 
@@ -163,9 +163,9 @@ A Strategic Advantage Map is a structured representation of **relative** strateg
 
 For strategies \(\pi_a\) and \(\pi_b\), define a conditional difference:
 
-\[
+$$
 \Delta_{a,b}(c,o,p,h) = Q(\pi_a\mid c,o,p,h) - Q(\pi_b\mid c,o,p,h).
-\]
+$$
 
 An advantage region is a set of contexts in which this difference is credibly positive **under stated assumptions and uncertainty criteria**. A failure boundary is where performance degrades, feasibility fails, or evidence becomes insufficient. These boundaries should be reported as uncertain rather than falsely precise.
 
@@ -187,9 +187,9 @@ Maps should retain losing and inconclusive strategies when informative. Evidence
 
 A map answers *where a strategy seems to work*. A worldview adds hypotheses about *why the environment behaves as it does*, which evidence matters, and which strategic principles should guide further inquiry. The proposed progression is:
 
-\[
+$$
 \text{Scenario Evidence} \rightarrow \text{Advantage Maps} \rightarrow \text{Conditional Principles} \rightarrow \text{Worldview Forest}.
-\]
+$$
 
 The reverse direction is equally important: worldviews shape candidate generation and interpretation, and must be challenged by counter-evidence.
 
@@ -213,9 +213,9 @@ SSICR extends structural self-improvement along five coupled axes: unit capabili
 
 A conceptual update equation is:
 
-\[
+$$
 X_i^{t+1}=F_i(X_i^t, X_{-i}^t, C_t, E_i^t),
-\]
+$$
 
 where \(X_i\) represents subject \(i\)'s strategy and relevant structural state, \(X_{-i}\) other subjects, \(C_t\) institutional/environmental context, and \(E_i^t\) available evidence. This is a modeling template, not a claim of deterministic social dynamics.
 

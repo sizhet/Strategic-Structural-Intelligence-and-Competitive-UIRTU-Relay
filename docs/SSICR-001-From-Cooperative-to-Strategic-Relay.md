@@ -102,9 +102,9 @@ Adding more agents or finer-grained units does not by itself create strategic co
 
 A conceptual representation is:
 
-\[
+$$
 C_{strategic} = F(N_s, D_o, I_a, R_c, H, G, A_d)
-\]
+$$
 
 where:
 
@@ -161,10 +161,10 @@ A strategic dispatcher must also ask: *Which composition and interaction policy 
 
 For subject \(i\), a stylized decision problem is:
 
-\[
+$$
 \pi_i^* \in \arg\max_{\pi_i \in \Pi_i^{authorized}}
 \mathbb{E}_{\pi_{-i},\,E}\left[U_i(\pi_i,\pi_{-i},E;H)\right]
-\]
+$$
 
 Here \(\pi_i\) is a subject's strategy, \(\pi_{-i}\) represents other subjects' strategies, \(E\) denotes environmental conditions, and \(H\) the evaluation horizon. The expectation is meaningful only if the assumed distribution or scenario ensemble is made explicit. In practice, multi-objective, robust, and constrained evaluations may be more appropriate than a single utility maximum.
 
@@ -176,10 +176,10 @@ In a competitive environment, improvements by one subject change the operating c
 
 A schematic coupled process is:
 
-\[
+$$
 S_A^{t+1}=F_A(S_A^t,S_B^t,E_t), \qquad
 S_B^{t+1}=F_B(S_B^t,S_A^t,E_t)
-\]
+$$
 
 where \(S\) includes strategy and relevant structural state. This formulation does not guarantee convergence, improvement, or equilibrium.
 
@@ -233,9 +233,9 @@ A useful search engine should combine broad low-cost exploration with targeted h
 
 The output should not be a universally best strategy. Instead, it should estimate where each candidate performs comparatively well, under which assumptions, against which opponent behaviors, and with what uncertainty.
 
-\[
+$$
 A(\pi \mid C,O,H,M)
-\]
+$$
 
 is a conceptual contextual advantage function for strategy \(\pi\), conditions \(C\), opponent scenarios \(O\), horizon \(H\), and simulation model \(M\). Here *comparative advantage* means conditional relative performance, not necessarily the formal opportunity-cost definition used in international trade theory.
 
