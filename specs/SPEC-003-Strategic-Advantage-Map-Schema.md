@@ -260,18 +260,18 @@ A claim with `relation: positive` MUST state the sign convention, comparison dir
 
 Let \(s\) be a candidate strategy, \(b\) a comparator, \(c\) a context, \(o\) an opponent configuration, \(p\) a scoring perspective, and \(h\) an evaluation horizon. Define the conditional expected utility difference:
 
-\[
+$$
 \Delta_{p,h}(s,b\mid c,o)
 = \mathbb{E}[U_{p,h}(s\mid c,o)]
 - \mathbb{E}[U_{p,h}(b\mid c,o)].
-\]
+$$
 
 An estimated advantage region at margin \(\epsilon\) is:
 
-\[
+$$
 \widehat{\mathcal A}_{p,h}(s,b;\epsilon)
 = \{(c,o): \widehat\Delta_{p,h}(s,b\mid c,o)>\epsilon\}.
-\]
+$$
 
 The hat denotes estimation from finite evidence; it MUST NOT be dropped in reports that have not established the true region. A statistically uncertain sign SHOULD be reported as `inconclusive`, not forced into a binary winner label.
 
@@ -450,9 +450,9 @@ The pipeline SHOULD separate exploratory data from confirmatory evaluation to li
 
 A SAM can guide where additional simulations are valuable. Candidate priorities MAY consider:
 
-\[
+$$
 V(c,o) = \alpha\,I(c,o) + \beta\,B(c,o) + \gamma\,R(c,o) + \delta\,D(c,o),
-\]
+$$
 
 where \(I\) is expected information gain, \(B\) is proximity to an uncertain decision boundary, \(R\) is expected consequence or risk, and \(D\) is strategic diversity/coverage value. The weights are governance choices, not universal constants.
 

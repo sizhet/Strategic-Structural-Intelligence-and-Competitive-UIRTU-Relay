@@ -151,9 +151,9 @@ A `normative` principle MUST NOT be labeled empirically validated solely because
 
 For a principle \(p\), context \(c\), subject \(s\), and opponent model \(o\), an evidence-supported effectiveness claim may be written as:
 
-\[
+$$
 E_p(c,s,o) = \mathbb{E}[U_s(\pi_p,c,o)-U_s(\pi_{baseline},c,o)] .
-\]
+$$
 
 The utility function \(U_s\) is explicitly subject-relative. The quantity is an estimated comparative effect, not a moral ranking of subjects or values. Every estimate MUST identify its baseline, metrics, context, and uncertainty.
 
@@ -223,9 +223,9 @@ A forest MUST support simultaneous contradictory trees. `contradicts` MUST NOT a
 
 The evaluation of a strategy under worldview \(w\) is:
 
-\[
+$$
 V(s,\pi,c\mid w)=F_w(M(s,\pi,c),R(c),H,\Theta_w),
-\]
+$$
 
 where \(M\) denotes observed or predicted metrics, \(R\) risk information, \(H\) the horizon, and \(\Theta_w\) the worldview's explicit assumptions and authorized priorities. This is a conceptual function, not a claim that values admit a unique scalar representation.
 

@@ -205,9 +205,9 @@ The interaction mode does not override authorization or information security. Co
 
 For a chain `A -> B -> C`, the effective permission is bounded by the intersection of all relevant grants:
 
-\[
+$$
 P_{A\rightarrow B\rightarrow C} \subseteq P_{A\rightarrow B}\cap P_{B\rightarrow C}.
-\]
+$$
 
 Composition MUST preserve origin, scope, expiry, and applicable restrictions. If constraints conflict, the stricter applicable restriction prevails or the operation is rejected. Composition MUST NOT broaden data-use rights through a change of representation.
 
@@ -217,9 +217,9 @@ Composition MUST preserve origin, scope, expiry, and applicable restrictions. If
 
 A grant is represented conceptually as
 
-\[
+$$
 G=(p,d,\mathcal A,\mathcal R,\mathcal C,t_0,t_1,\rho),
-\]
+$$
 
 where `p` is principal, `d` delegate, `A` allowed actions, `R` resource bounds, `C` contextual conditions, `[t0,t1]` validity, and `rho` revocation reference.
 
@@ -257,9 +257,9 @@ A subject MAY declare multiple, possibly non-commensurable objectives. An evalua
 
 An evaluation result SHOULD preserve a vector of scores before any aggregation:
 
-\[
+$$
 \mathbf{s}(\pi,c,o,t)=[s_1,\ldots,s_k],
-\]
+$$
 
 where `pi` is strategy, `c` context, `o` opponent model, and `t` horizon. Any aggregate `F(\mathbf{s};w)` MUST identify weights `w`, the authorizing perspective, and sensitivity to plausible alternative weights.
 
