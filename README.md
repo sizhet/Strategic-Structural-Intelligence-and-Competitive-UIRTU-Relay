@@ -138,7 +138,7 @@ These are **research contracts and candidate schemas**; their presence does not 
 
 ## Figures
 
-The eight planned illustrations are:
+The repository includes eight architectural illustrations:
 
 1. `figures/Fig-001-SSICR-Grand-Architecture.png`
 2. `figures/Fig-002-Cooperative-to-Competitive-Relay.png`
@@ -165,7 +165,7 @@ SSICR is designed to support falsifiable investigation rather than treating comp
 
 The project does **not** claim that societal evolution can be reliably predicted from closed-world agent simulation. Social subjects and institutions may change the rules of the simulation itself. The proposed response is cautious modeling, model criticism, external validation, and continual revision—not an assumption of perfect coverage.
 
-For follow-up research, see [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md), [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md), [VALIDATION-ROADMAP.md](VALIDATION-ROADMAP.md), and [FUTURE-DIRECTIONS.md](FUTURE-DIRECTIONS.md) as those supporting files are added.
+For follow-up research, see [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md), [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md), [VALIDATION-ROADMAP.md](VALIDATION-ROADMAP.md), and [FUTURE-DIRECTIONS.md](FUTURE-DIRECTIONS.md).
 
 ## Strategic Sovereignty and Responsible Use
 
@@ -207,7 +207,7 @@ Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay/
 └── release/     # GitHub and ResearchGate release materials
 ```
 
-The tree describes the intended v1.0.0 release layout. Some supporting files may still be in preparation.
+The tree describes the intended v1.0.0 release layout. 
 
 ## Citation and Release
 
