@@ -6,7 +6,7 @@
 **Project:** Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)  
 **Version:** 1.0.0  
 **Status:** Illustrative research case and proposed experimental protocol; no empirical results claimed  
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 
 ---
 

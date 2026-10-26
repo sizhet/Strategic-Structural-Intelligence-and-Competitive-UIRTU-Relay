@@ -336,5 +336,5 @@ The proposed architecture places Scoring Forests between open-ended strategy gen
 
 **Suggested citation:** Tan, S., & GPT-Obot. (2026). *SSICR-003: Strategic Control Planes and Scoring* (Version 1.0.0). Strategic Structural Intelligence and Competitive UIRTU-Relay research repository. DOI pending.
 
-**License:** Refer to the repository's `LICENSE` file.  
+**License:** Refer to the repository's `LICENSE.txt` file.  
 **Document status:** Research proposal; not an operational strategic decision system.

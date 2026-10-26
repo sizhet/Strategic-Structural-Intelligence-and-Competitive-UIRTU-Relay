@@ -6,7 +6,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0  
 **Status:** Research framework and testable hypotheses; not an empirically validated general theory  
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 
 ---
 

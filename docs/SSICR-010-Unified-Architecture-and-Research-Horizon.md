@@ -427,4 +427,4 @@ This document is a proposed theoretical and engineering synthesis. Mathematical 
 
 **Suggested citation (pending DOI):** Tan, S., & GPT-Obot. (2026). *SSICR-010: Unified Architecture and Research Horizon*. In *Strategic Structural Intelligence and Competitive UIRTU-Relay*, version 1.0.0. GitHub repository. DOI pending.
 
-**License:** See repository-level `LICENSE` for the applicable terms.
+**License:** See repository-level `LICENSE.txt` for the applicable terms.

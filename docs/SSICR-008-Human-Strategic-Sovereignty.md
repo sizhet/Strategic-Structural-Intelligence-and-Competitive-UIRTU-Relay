@@ -366,4 +366,4 @@ When citing this manuscript before a DOI has been assigned, cite the title, auth
 
 ## License and research disclaimer
 
-The repository's `LICENSE` file governs reuse. This manuscript is a conceptual research proposal and does not establish verified simulation performance, legal compliance, or operational safety. All empirical claims require validation in appropriately governed environments.
+The repository's `LICENSE.txt` file governs reuse. This manuscript is a conceptual research proposal and does not establish verified simulation performance, legal compliance, or operational safety. All empirical claims require validation in appropriately governed environments.

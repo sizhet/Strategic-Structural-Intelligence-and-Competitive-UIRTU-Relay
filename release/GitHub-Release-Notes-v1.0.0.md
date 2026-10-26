@@ -94,7 +94,7 @@ The cases are **hypothetical research designs**, not reports of completed real-w
 
 - `README.md`, `START-HERE.md`, `CONTENTS.md`, `GLOSSARY.md`, `FIGURE-INDEX.md`
 - `FUTURE-DIRECTIONS.md`, `OPEN-QUESTIONS.md`, `TESTABLE-HYPOTHESES.md`, `VALIDATION-ROADMAP.md`
-- `CHANGELOG.md`, `CITATION.cff`, `.zenodo.json`, `LICENSE`
+- `CHANGELOG.md`, `CITATION.cff`, `.zenodo.json`, `LICENSE.txt`
 - `release/GitHub-Release-Notes-v1.0.0.md`
 
 ## Research Status and Limitations
@@ -115,7 +115,7 @@ Before creating the GitHub release and archiving it with Zenodo:
 - [ ] Confirm the seventh paper is named `SSICR-007-Social-Structural-Simulation-and-Co-Evolution.md` (not `SICR-007-...`).
 - [ ] Confirm eight **separate** figure files exist with the exact listed names and all figure references resolve.
 - [ ] Confirm `CITATION.cff` and `.zenodo.json` use consistent title, author credit, version, repository URL, and publication metadata.
-- [ ] Confirm the actual `LICENSE` file and metadata license field agree.
+- [ ] Confirm the actual `LICENSE.txt` file and metadata license field agree.
 - [ ] Review Markdown rendering, mathematical notation, relative paths, and the hypothetical status of examples.
 - [ ] Create and publish GitHub tag/release `v1.0.0`; verify the Zenodo archive and assigned DOI.
 - [ ] Add the assigned DOI to relevant citation, README, and ResearchGate materials **after** Zenodo assigns it.

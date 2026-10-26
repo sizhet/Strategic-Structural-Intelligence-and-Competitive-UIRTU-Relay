@@ -342,4 +342,4 @@ When publishing this paper, add verified bibliographic references for ABM, MARL,
 
 ## License and Versioning
 
-This document is part of the proposed SSICR v1.0.0 research repository. Repository-wide licensing and archival metadata are governed by the top-level `LICENSE`, `CITATION.cff`, and `.zenodo.json` files.
+This document is part of the proposed SSICR v1.0.0 research repository. Repository-wide licensing and archival metadata are governed by the top-level `LICENSE.txt`, `CITATION.cff`, and `.zenodo.json` files.
