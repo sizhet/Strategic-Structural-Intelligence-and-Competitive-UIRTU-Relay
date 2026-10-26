@@ -227,4 +227,11 @@ The ultimate SSICR objective is not to discover a single universal winning strat
 
 ---
 
+## 📚 DBM-SI Series Navigation
+
+See:\
+[./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md)
+
+---
+
 **Sizhe Tan & GPT-Obot · SSICR v1.0.0 · 2026**
