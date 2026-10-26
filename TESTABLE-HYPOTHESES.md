@@ -524,7 +524,7 @@ SSICR is a research hypothesis about the **structure of strategic intelligence**
 
 ## Citation
 
-Tan, Sizhe, and GPT-Obot. (2026). *SSICR: Testable Hypotheses — Falsifiable Research Program for Strategic Structural Intelligence and Competitive UIRTU-Relay*. Version 1.0.0. Research design manuscript. DOI pending.
+Tan, Sizhe, and GPT-Obot. (2026). *SSICR: Testable Hypotheses — Falsifiable Research Program for Strategic Structural Intelligence and Competitive UIRTU-Relay*. Version 1.0.0. Research design manuscript. DOI: 10.5281/zenodo.23675958.
 
 **License:** Refer to the repository's `LICENSE.txt` file.  
 **Empirical status:** Hypotheses and protocols only; no experiments or findings are represented as completed.

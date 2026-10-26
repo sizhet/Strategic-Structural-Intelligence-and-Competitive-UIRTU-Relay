@@ -269,7 +269,7 @@ These connections motivate the research architecture; they do not replace experi
 **Repository:** https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay  
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0  
-**DOI:** Pending assignment; do not substitute a placeholder DOI in citations.
+**DOI: 10.5281/zenodo.23675958
 
 ---
 

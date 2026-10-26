@@ -211,11 +211,9 @@ The tree describes the intended v1.0.0 release layout.
 
 ## Citation and Release
 
-**Suggested citation (until a DOI is assigned):**
-
 Tan, Sizhe, and GPT-Obot. (2026). *Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR): From Multi-Strategy Simulation to Comparative Advantage Maps, Strategic Worldviews, and Human Strategic Sovereignty* (Version 1.0.0). Research repository. GitHub: https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay
 
-The DOI is **pending**; do not substitute a placeholder DOI into a publication citation. After archival release, use the DOI supplied by the repository's archival record and update `CITATION.cff` and the release materials accordingly.
+DOI: 10.5281/zenodo.23675958
 
 For the governing license, consult the repository's [`LICENSE.txt`](LICENSE.txt) file. Do not infer a license from this README alone.
 

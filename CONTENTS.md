@@ -215,7 +215,7 @@ Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay/
 **Authors:** Sizhe Tan & GPT-Obot.  
 **Repository:** [Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay](https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay)  
 **Release target:** v1.0.0.  
-**DOI:** Pending; insert the minted DOI after archival release rather than inventing one.
+**DOI: 10.5281/zenodo.23675958
 
 Refer to [CITATION.cff](CITATION.cff), [.zenodo.json](.zenodo.json), [CHANGELOG.md](CHANGELOG.md), and [LICENSE.txt](LICENSE.txt) for canonical release metadata and licensing terms once committed. This index does not independently assert a license or a published DOI.
 

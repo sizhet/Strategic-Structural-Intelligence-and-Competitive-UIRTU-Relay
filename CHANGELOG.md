@@ -7,7 +7,7 @@ This project follows the principles of [Keep a Changelog](https://keepachangelog
 **Authors:** Sizhe Tan & GPT-Obot  
 **Repository:** [Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay](https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay)  
 **Status:** Research framework and testable design proposal  
-**DOI:** Pending first archival release
+**DOI: 10.5281/zenodo.23675958
 
 ---
 

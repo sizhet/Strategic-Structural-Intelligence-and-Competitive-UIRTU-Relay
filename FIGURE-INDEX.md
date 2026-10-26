@@ -205,7 +205,7 @@ The current composite may serve as a **visual overview** or production reference
 **Authors:** Sizhe Tan & GPT-Obot  
 **Project:** Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)  
 **Version:** 1.0.0  
-**DOI:** Pending publication and registration; do not insert a fabricated identifier.
+**DOI: 10.5281/zenodo.23675958
 
 Suggested caption attribution: *Sizhe Tan & GPT-Obot, SSICR v1.0.0, conceptual research illustration.*
 
