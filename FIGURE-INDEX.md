@@ -152,7 +152,7 @@ All paths are relative to the repository root. Figure references inside `docs/`,
 From a paper in `docs/`:
 
 ```markdown
-![Figure 005 — Strategic Advantage Landscape](../figures/Fig-005-Strategic-Advantage-Landscape.png)
+![Figure 005 — Strategic Advantage Landscape](figures/Fig-005-Strategic-Advantage-Landscape.png)
 
 *Figure 005. Context-conditioned strategic comparative advantage, uncertainty, and failure boundaries; schematic rather than empirical.*
 ```
