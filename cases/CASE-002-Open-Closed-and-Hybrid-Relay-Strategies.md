@@ -101,9 +101,9 @@ Hybrid is a **family of policies**, not a guaranteed compromise that dominates b
 
 Define a Relay policy vector:
 
-\[
+$$
 \pi = (o_k, o_i, o_e, a, r, v, d, q)
-\]
+$$
 
 where:
 
@@ -174,17 +174,17 @@ Topology is a structural treatment variable, not a substitute for the underlying
 
 At simulation step \(t\), subject \(i\) has state:
 
-\[
+$$
 X_{i,t}=(K_{i,t}, R_{i,t}, C_{i,t}, B_{i,t}, W_{i,t})
-\]
+$$
 
 with knowledge \(K\), resources \(R\), capabilities \(C\), Relay boundaries \(B\), and strategic worldview \(W\).
 
 Its strategy \(\pi_{i,t}\) determines permissible exchange, capability acquisition, and adaptation. An environment transition function updates subject states and institutional rules:
 
-\[
+$$
 (X_{t+1}, I_{t+1}) = F(X_t, I_t, \boldsymbol{\pi}_t, \xi_t; \theta)
-\]
+$$
 
 where \(I\) represents institutions, \(\xi\) exogenous disturbances, and \(\theta\) the declared simulation assumptions.
 
@@ -213,17 +213,17 @@ An apparently superior policy may owe its advantage to opponents that never adap
 
 Use a vector of outcomes rather than collapsing all goals into one unexamined score:
 
-\[
+$$
 \mathbf{Y}_{i}= (Q, V, L, S, A, D, G)
-\]
+$$
 
 where \(Q\) is research quality, \(V\) innovation velocity, \(L\) long-run learning, \(S\) security and safety, \(A\) adaptability, \(D\) dependency resilience, and \(G\) governance compliance. Define units, direction, normalization, and missing-data rules for each metric.
 
 Subject-specific evaluation may use:
 
-\[
-U_i(\pi,c,p) = \sum_{k} w_{i,k,p} \, \widetilde{Y}_{i,k}(\pi,c) - \lambda_i\operatorname{Risk}_i(\pi,c)
-\]
+$$
+U_i(\pi,c,p) = \sum_{k} w_{i,k,p} \, \widetilde{Y}_{i,k}(\pi,c) - \lambda_i operatorname{Risk}_i(\pi,c)
+$$
 
 where \(p\) identifies the authorized scoring perspective. Weighted utility is **one optional decision model**, not a universal representation of value. Report Pareto dominance, individual metric outcomes, and constraints alongside any scalar score.
 
@@ -233,11 +233,11 @@ Do not treat a simulated utility maximum as authorization to execute a policy.
 
 For two policies \(\pi_a\) and \(\pi_b\), define:
 
-\[
+$$
 \Delta_{a,b}(c,p,o,h)=
 \mathbb{E}[U(\pi_a\mid c,p,o,h)]-
 \mathbb{E}[U(\pi_b\mid c,p,o,h)]
-\]
+$$
 
 where \(c\) is environmental context, \(p\) scoring perspective, \(o\) opponent model, and \(h\) time horizon.
 
@@ -387,10 +387,10 @@ A major pitfall is treating open, closed, and hybrid as frictionless options. A 
 
 Model transition costs explicitly:
 
-\[
+$$
 J_i(\pi_{t}\rightarrow\pi_{t+1}) =
 J_{technical}+J_{contractual}+J_{organizational}+J_{trust}
-\]
+$$
 
 A policy with higher instantaneous score may have lower long-run value after switching costs. Conversely, a hybrid policy can be useful as a real option only when switching is technically and institutionally feasible.
 

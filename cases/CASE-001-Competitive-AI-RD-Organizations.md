@@ -72,9 +72,9 @@ The simulation should abstract sensitive or dangerous capabilities into bounded 
 
 Define a set of strategic subjects:
 
-\[
+$$
 \mathcal{S}=\{S_A,S_B,S_C,S_D\}.
-\]
+$$
 
 Each subject is a synthetic organization, not a representation of any real firm.
 
@@ -91,9 +91,9 @@ Subject D can compete for resources and influence while cooperating with the oth
 
 For each subject \(i\), let:
 
-\[
+$$
 X_i(t)=\bigl(C_i,K_i,E_i,T_i,R_i,G_i,W_i,\Pi_i\bigr)_t,
-\]
+$$
 
 where \(C\) denotes available compute/resources, \(K\) reusable knowledge, \(E\) evaluation quality, \(T\) talent or effective research capacity, \(R\) Relay relationships, \(G\) governance constraints, \(W\) strategic worldview, and \(\Pi\) the current strategy policy.
 
@@ -152,9 +152,9 @@ These are families, not exhaustive policies. The actual strategy schema includes
 
 A strategy should be represented as:
 
-\[
+$$
 \pi_i: (X_i,\widehat X_{-i},Z,H_i)\mapsto A_i,
-\]
+$$
 
 where \(\widehat X_{-i}\) is the subject's uncertain estimate of other subjects, \(Z\) is environmental context, \(H_i\) is available history, and \(A_i\) is a permitted action or action distribution.
 
@@ -174,9 +174,9 @@ The experiment compares at least four external network configurations:
 
 Each edge \(e_{ij}\) has a contract:
 
-\[
+$$
  e_{ij}=\bigl(\text{purpose},\text{payload},\text{rights},\text{latency},\text{cost},\text{expiry},\text{audit}\bigr).
-\]
+$$
 
 A topology is not inherently good or bad. It may create value in one environment and vulnerabilities in another. Relay membership must be distinguished from a transfer of strategic authority.
 
@@ -211,10 +211,10 @@ Predefined shocks may include a change in research opportunity distribution, a d
 
 Let \(Z_t\) be the shared environment, \(N_t\) the Relay network, and \(A_t\) the joint action profile. The simulator evolves according to:
 
-\[
+$$
 (X_{t+1},Z_{t+1},N_{t+1})
 \sim P_\theta(\cdot\mid X_t,Z_t,N_t,A_t,\xi_t),
-\]
+$$
 
 where \(\theta\) is the calibrated model configuration and \(\xi_t\) captures exogenous uncertainty.
 
@@ -233,17 +233,17 @@ Do not equate an increase in simulated benchmark score with verified real-world 
 
 For subject \(i\), define a vector of measured outcomes:
 
-\[
+$$
 Y_i=(q_i,v_i,r_i,c_i,s_i,o_i),
-\]
+$$
 
 where \(q\) is research quality, \(v\) is validated innovation rate, \(r\) is resilience, \(c\) is resource efficiency, \(s\) is safety/reliability, and \(o\) is option value or strategic flexibility.
 
 Different authorized perspectives may assign different weights:
 
-\[
+$$
 U_i^{(p)}=f_p(Y_i,\text{constraints}_i),
-\]
+$$
 
 with \(p\) identifying a declared scoring perspective. No single score should be presented as the objective truth about organizational or social success.
 
@@ -267,11 +267,11 @@ A strategy that wins against a static competitor may fail against an adapting co
 
 For candidate strategy \(a\), scenario \(z\), and opponent policy \(b\), define:
 
-\[
+$$
 \Delta_i(a,a_0\mid z,b,p)
 =\mathbb E[U_i^{(p)}\mid a,z,b]
 -\mathbb E[U_i^{(p)}\mid a_0,z,b],
-\]
+$$
 
 where \(a_0\) is a specified comparator. Every advantage claim must name its comparator, scoring perspective, horizon, and opponent model.
 
@@ -324,9 +324,9 @@ Assume a synthetic utility scale from 0 to 100, with higher values preferable un
 
 For the second scenario, the hypothetical advantage of HYB over INT is:
 
-\[
+$$
 \Delta(\mathrm{HYB},\mathrm{INT})=84-63=21.
-\]
+$$
 
 This is a **conditional difference in a constructed example**, not a claim of statistical significance. No confidence interval can be inferred from a single invented score table.
 
@@ -363,10 +363,10 @@ A valid record includes:
 
 For a strategy pair \((a,b)\), define an estimated advantage region:
 
-\[
+$$
 \widehat{\mathcal A}_{a>b}^{(p)}
 =\{z:\widehat\Delta(a,b\mid z,p)>\tau\},
-\]
+$$
 
 where \(\tau\) is a preregistered minimum practical advantage. Region membership must also satisfy confidence and robustness criteria; a positive point estimate alone is insufficient.
 
@@ -449,11 +449,11 @@ A higher collective score is not sufficient evidence of better governance. Distr
 
 In the extended case, subjects can propose structural changes to their own intelligence systems:
 
-\[
+$$
 \text{observe}\rightarrow\text{propose}\rightarrow\text{simulate}
 \rightarrow\text{challenge}\rightarrow\text{validate}
 \rightarrow\text{authorize}\rightarrow\text{retain/reject}.
-\]
+$$
 
 Possible changes include adding a specialized evaluator, changing internal routing, modifying the project portfolio, or proposing a new Relay contract. The change must be versioned and evaluated against its predecessor under comparable conditions.
 

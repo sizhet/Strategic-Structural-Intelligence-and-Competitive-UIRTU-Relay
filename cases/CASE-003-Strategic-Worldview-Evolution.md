@@ -59,9 +59,9 @@ These labels describe **synthetic agents**, not real institutions. Initial world
 
 At time \(t\), define a modeled state:
 
-\[
+$$
 X_t = (E_t, A_t, R_t, I_t, H_t),
-\]
+$$
 
 where \(E_t\) is environment, \(A_t\) subject capabilities and resources, \(R_t\) Relay relationships, \(I_t\) institutional rules, and \(H_t\) the available evidence history. Each subject observes only a filtered portion of \(X_t\). The observation function itself may depend on the subject's worldview, creating a source of selective attention that must be audited.
 
@@ -162,11 +162,11 @@ Simulation outputs must identify model version, run seed, intervention, observed
 
 For strategy \(s\), comparator \(b\), subject \(i\), context \(c\), horizon \(h\), and scoring perspective \(p\), define an estimated relative value:
 
-\[
+$$
 \widehat{\Delta}_{i,p}(s,b\mid c,h)
 = \widehat{\mathbb{E}}[U_{i,p}(s\mid c,h)]
 - \widehat{\mathbb{E}}[U_{i,p}(b\mid c,h)].
-\]
+$$
 
 The estimate is meaningful only when both interventions are comparable and uncertainty is documented. An SAM entry should include confidence intervals or uncertainty bounds, the opponent distribution, the tested context region, and explicit out-of-distribution warnings.
 
@@ -176,10 +176,10 @@ An advantage map may say, for example, that selective sharing outperforms both u
 
 A principle candidate is a structured proposition:
 
-\[
+$$
 P = (\text{trigger},\text{recommended action},\text{comparator},
 \text{expected mechanism},\text{exceptions},\text{evidence}).
-\]
+$$
 
 Principle induction proceeds by identifying robust advantage regions, proposing an interpretable mechanism, checking alternative explanations, and testing the candidate on held-out contexts. A candidate is rejected or weakened when the effect disappears under adversarial cross-play, metric changes, or independently generated scenarios.
 
@@ -212,9 +212,9 @@ All revisions preserve earlier versions and cite the evidence that motivated the
 
 A worldview has at least two logically distinct components:
 
-\[
+$$
 W_i = (B_i, P_i, V_i, G_i),
-\]
+$$
 
 where \(B_i\) denotes empirical beliefs, \(P_i\) instrumental principles, \(V_i\) normative commitments and priorities, and \(G_i\) governance and authorization rules.
 
@@ -284,11 +284,11 @@ Possible discoveries include missing trust asymmetries, coordination bottlenecks
 
 Worldviews influence which strategies are generated and which evidence is sought. This creates a self-referential loop:
 
-\[
+$$
 W_t \rightarrow \text{search policy}_t
 \rightarrow \text{observed evidence}_{t+1}
 \rightarrow W_{t+1}.
-\]
+$$
 
 The loop can accelerate useful search but can also produce confirmation bias. Required safeguards include worldview-agnostic exploration budgets, adversarial candidate generation, cross-worldview audits, and periodic tests of branches that the current worldview considers unlikely.
 
