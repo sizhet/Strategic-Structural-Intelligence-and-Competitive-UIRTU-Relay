@@ -7,7 +7,7 @@
 **Version / proposed tag:** `v1.0.0`  
 **Release status:** Initial research-framework release  
 **Repository:** https://github.com/sizhet/Strategic-Structural-Intelligence-and-Competitive-UIRTU-Relay  
-**DOI:** Pending Zenodo registration; add the assigned DOI after publication.
+**DOI: 10.5281/zenodo.23675958
 
 ---
 
