@@ -54,23 +54,21 @@ $$
 \mathcal{M}=(\mathcal{N},\mathcal{S},\{\mathcal{A}_i\},P,\{O_i\},\{U_i\},\mathcal{G},\mathcal{K},H),
 $$
 
-where \(\mathcal{N}\) is the set of strategic subjects, \(\mathcal{S}\) the environment state space, \(\mathcal{A}_i\) the permitted action space, \(P\) the transition mechanism, \(O_i\) the subject-specific observation mechanism, \(U_i\) the authorized utility or multidimensional evaluation specification, \(\mathcal{G}\) the evolving Relay graphs, \(\mathcal{K}\) the contracts and governance constraints, and \(H\) the horizon.
+where $\mathcal{N}$ is the set of strategic subjects, $\mathcal{S}$ the environment state space, $\mathcal{A}_i$ the permitted action space, $P$ the transition mechanism, $O_i$ the subject-specific observation mechanism, $U_i$ the authorized utility or multidimensional evaluation specification, $\mathcal{G}$ the evolving Relay graphs, $\mathcal{K}$ the contracts and governance constraints, and $H$ the horizon.
 
-A candidate \(\pi_i=(\pi_i^{\mathrm{decision}},G_i,\rho_i)\) contains a decision policy, a Relay graph, and a resource-allocation policy. The simulator produces a trajectory \(\tau\) and measured outcomes \(Y(\tau)\). Opponent strategies \(\pi_{-i}\) and scenario conditions \(c\) are explicit inputs.
+A candidate $\pi_i=(\pi_i^{\mathrm{decision}},G_i,\rho_i)$ contains a decision policy, a Relay graph, and a resource-allocation policy. The simulator produces a trajectory $\tau$ and measured outcomes $Y(\tau)$. Opponent strategies $\pi_{-i}$ and scenario conditions $c$ are explicit inputs.
 
-For evaluation perspective \(p\), define
+For evaluation perspective $p$, define
 
 $$
-V_p(\pi_i\mid c,\Pi_{-i})
-=\mathbb{E}_{\pi_{-i}\sim\Pi_{-i},\,\omega}
+V_p(\pi_i\mid c,\Pi_{-i}) =\mathbb{E}_{\pi_{-i}\sim\Pi_{-i},\,\omega}
 \left[u_p\bigl(Y(\tau(\pi_i,\pi_{-i},c,\omega))\bigr)\right],
 $$
 
-where \(\omega\) captures stochastic variation and \(\Pi_{-i}\) is a declared opponent-policy distribution. A relative advantage against baseline \(b\) is
+where $\omega$ captures stochastic variation and $\Pi_{-i}$ is a declared opponent-policy distribution. A relative advantage against baseline $b$ is
 
 $$
-\Delta_p(\pi_i,b\mid c,\Pi_{-i})
-=V_p(\pi_i\mid c,\Pi_{-i})-V_p(b\mid c,\Pi_{-i}).
+\Delta_p(\pi_i,b\mid c,\Pi_{-i}) = V_p(\pi_i\mid c,\Pi_{-i})-V_p(b\mid c,\Pi_{-i}).
 $$
 
 These expectations are estimated with finite samples and reported with uncertainty. Multi-objective outcomes should retain Pareto structure when no authorized scalarization exists. The model is descriptive and testable, not a proof of optimality.
@@ -119,7 +117,7 @@ $$
 \Omega=\Pi\times\mathcal{C}\times\mathcal{P}_{-i}\times\mathcal{G}\times\mathcal{H},
 $$
 
-with candidate policies \(\Pi\), contexts \(\mathcal{C}\), opponent populations \(\mathcal{P}_{-i}\), Relay graphs \(\mathcal{G}\), and horizons \(\mathcal{H}\). Exhaustive enumeration is generally infeasible.
+with candidate policies $\Pi$, contexts $\mathcal{C}$, opponent populations $\mathcal{P}_{-i}$, Relay graphs $\mathcal{G}$, and horizons $\mathcal{H}$. Exhaustive enumeration is generally infeasible.
 
 Recommended search components include stratified scenario sampling, population-based search, evolutionary operators, contextual bandit allocation, opponent-population diversity, and targeted adversarial testing. No single algorithm is assumed to dominate across all environments. Search logs must record what was *not* explored, since apparent advantage may reflect a narrow search distribution.
 
@@ -140,11 +138,10 @@ A scheduling heuristic can prioritize uncertain candidates with plausible high v
 $$
 Q(\pi,c)=\widehat{\Delta}(\pi,c)
 +\beta\,\widehat{\sigma}(\pi,c)
-+\lambda\,N(\pi,c)
--\mu\,\widehat{\mathrm{Cost}}(\pi,c),
++\lambda\,N(\pi,c) -\mu\,\widehat{\mathrm{Cost}}(\pi,c),
 $$
 
-where \(N\) measures meaningful novelty. This is an illustrative heuristic, not a calibrated formula. Avoid repeatedly selecting only currently high-scoring strategies; retain diverse families and tail-risk probes.
+where $N$ measures meaningful novelty. This is an illustrative heuristic, not a calibrated formula. Avoid repeatedly selecting only currently high-scoring strategies; retain diverse families and tail-risk probes.
 
 ## 9. Competitive Tournaments and Co-Evolution
 

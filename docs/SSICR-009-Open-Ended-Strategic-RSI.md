@@ -22,7 +22,7 @@ $$
 I_{t+1}=F(I_t,E_t),
 $$
 
-where \(I_t\) is an intelligence system and \(E_t\) is the evidence available for improvement. This is a useful abstraction but insufficient for strategic environments. An improvement by one subject may alter competitors' opportunities, collaborators' incentives, resource prices, evaluation benchmarks, and the institutions governing subsequent interaction.
+where $I_t$ is an intelligence system and $E_t$ is the evidence available for improvement. This is a useful abstraction but insufficient for strategic environments. An improvement by one subject may alter competitors' opportunities, collaborators' incentives, resource prices, evaluation benchmarks, and the institutions governing subsequent interaction.
 
 In such settings, improvement is not a private trajectory. It is a **relational process**: the improvement of one subject changes the selection environment of others, whose responses then change the first subject's options.
 
@@ -69,13 +69,13 @@ These axes are coupled but analytically distinct. A stronger unit can make a pre
 
 ## 4. From Private Improvement to Coupled Co-Evolution
 
-Let strategic subject \(i\) have state
+Let strategic subject $i$ have state
 
 $$
 X_i^t=(U_i^t,R_i^t,\pi_i^t,M_i^t,W_i^t),
 $$
 
-where \(U\) denotes intelligence units, \(R\) Relay architecture, \(\pi\) strategic policy, \(M\) models of other subjects and the environment, and \(W\) empirical worldview assumptions. Let \(G_t\) denote shared governance and institutional conditions.
+where $U$ denotes intelligence units, $R$ Relay architecture, $\pi$ strategic policy, $M$ models of other subjects and the environment, and $W$ empirical worldview assumptions. Let $G_t$ denote shared governance and institutional conditions.
 
 A general coupled transition is:
 
@@ -83,7 +83,7 @@ $$
 X_i^{t+1}=F_i(X_i^t,\{X_j^t\}_{j\ne i},E_t,G_t,\xi_t),
 $$
 
-with \(E_t\) observed evidence and \(\xi_t\) stochastic factors. This is a modeling template, not a proven law of strategic evolution.
+with $E_t$ observed evidence and $\xi_t$ stochastic factors. This is a modeling template, not a proven law of strategic evolution.
 
 Four effects deserve separate measurement:
 
@@ -104,7 +104,7 @@ A simulation that measures only the first effect cannot establish strategic supe
 
 ## 5. Strategic Selection Is Contextual
 
-For strategy \(\pi\), Relay configuration \(R\), context \(c\), opponent population \(\Omega\), and evaluation horizon \(h\), define a vector of outcomes:
+For strategy $\pi$, Relay configuration $R$, context $c$, opponent population $\Omega$, and evaluation horizon $h$, define a vector of outcomes:
 
 $$
 \mathbf{Y}(\pi,R\mid c,\Omega,h)
@@ -119,12 +119,10 @@ $$
 V_i(\pi,R\mid c,\Omega,h;\theta_i),
 $$
 
-where \(\theta_i\) encodes authorized priorities and constraints. Comparative advantage against a baseline \(b\) is:
+where $\theta_i$ encodes authorized priorities and constraints. Comparative advantage against a baseline $b$ is:
 
 $$
-\Delta_i(\pi,b\mid c,\Omega,h)
-=V_i(\pi,R\mid c,\Omega,h;\theta_i)
- - V_i(b,R_b\mid c,\Omega,h;\theta_i).
+\Delta_i(\pi,b\mid c,\Omega,h) = V_i(\pi,R\mid c,\Omega,h;\theta_i) - V_i(b,R_b\mid c,\Omega,h;\theta_i).
 $$
 
 A positive estimate does not imply universal superiority. It is conditional on the subject, scoring specification, scenario distribution, model fidelity, and uncertainty interval.
@@ -299,13 +297,13 @@ OTHERS must not become a universal excuse for model failure. Each entry needs a 
 
 Repeated strategic interaction may produce new coordination arrangements, rules, standards, or governance constraints. Such institutions may improve cooperation, but may also create lock-in, exclusion, or concentration of power.
 
-Model institutional state as \(G_t\), with a separate transition:
+Model institutional state as $G_t$, with a separate transition:
 
 $$
 G_{t+1}=H(G_t,\{a_i^t\},E_t),
 $$
 
-where \(a_i^t\) are authorized subject actions. The model should permit both institution formation and breakdown. Do not infer desirable institutional outcomes from the existence of a stable equilibrium.
+where $a_i^t$ are authorized subject actions. The model should permit both institution formation and breakdown. Do not infer desirable institutional outcomes from the existence of a stable equilibrium.
 
 ## 15. Reference Scenario: Competitive AI R&D Organizations
 

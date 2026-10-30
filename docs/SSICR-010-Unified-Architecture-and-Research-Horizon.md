@@ -113,7 +113,7 @@ $$
 S_i = (I_i, O_i, R_i, B_i, W_i, \Pi_i, A_i, E_i),
 $$
 
-where identity \(I_i\), objectives \(O_i\), resources \(R_i\), boundaries \(B_i\), worldview \(W_i\), strategy set \(\Pi_i\), authorized actions \(A_i\), and evidence state \(E_i\) are explicit but incomplete. This tuple is a **proposed schema**, not a validated behavioral law.
+where identity $I_i$, objectives $O_i$, resources $R_i$, boundaries $B_i$, worldview $W_i$, strategy set $\Pi_i$, authorized actions $A_i$, and evidence state $E_i$ are explicit but incomplete. This tuple is a **proposed schema**, not a validated behavioral law.
 
 Six boundaries should be represented independently: **identity**, **objective**, **information**, **action**, **learning**, and **governance**. A cross-subject relay can share services and evidence without transferring ownership of goals. No unit may expand its authority merely because simulation identifies a higher score.
 
@@ -125,7 +125,7 @@ A subject's behavior may be under-specified or change endogenously. SSICR theref
 
 A strategic control plane coordinates scenario interpretation, candidate construction, relay selection, opponent modeling, evaluation, and permitted action. It is subordinate to the subject's authorized objectives.
 
-For strategy \(\pi\), context \(c\), opponent configuration \(o\), perspective \(p\), and horizon \(h\), define an illustrative evaluation function:
+For strategy $\pi$, context $c$, opponent configuration $o$, perspective $p$, and horizon $h$, define an illustrative evaluation function:
 
 $$
 Q(\pi \mid c,o,p,h) = \mathbb{E}[U_p(\pi,c,o,h)] - \lambda_p\,\mathrm{Risk}(\pi,c,o,h) - \mu_p\,\mathrm{Cost}(\pi,c,o,h).
@@ -161,7 +161,7 @@ More compute cannot repair an invalid model. Calibration to observations, out-of
 
 A Strategic Advantage Map is a structured representation of **relative** strategy performance under specified contexts, opponents, objectives, and horizons. Here *comparative advantage* is used in the broad conditional strategic sense, not automatically the strict economic sense of opportunity-cost advantage.
 
-For strategies \(\pi_a\) and \(\pi_b\), define a conditional difference:
+For strategies $\pi_a$ and $\pi_b$, define a conditional difference:
 
 $$
 \Delta_{a,b}(c,o,p,h) = Q(\pi_a\mid c,o,p,h) - Q(\pi_b\mid c,o,p,h).
@@ -217,7 +217,7 @@ $$
 X_i^{t+1}=F_i(X_i^t, X_{-i}^t, C_t, E_i^t),
 $$
 
-where \(X_i\) represents subject \(i\)'s strategy and relevant structural state, \(X_{-i}\) other subjects, \(C_t\) institutional/environmental context, and \(E_i^t\) available evidence. This is a modeling template, not a claim of deterministic social dynamics.
+where $X_i$ represents subject $i$'s strategy and relevant structural state, $X_{-i}$ other subjects, $C_t$ institutional/environmental context, and $E_i^t$ available evidence. This is a modeling template, not a claim of deterministic social dynamics.
 
 The growth loop is **candidate change → sandbox trial → comparative evaluation → adversarial counter-evidence → authorized adoption → provenance-preserving update**. Failed proposals remain useful evidence. The system should avoid uncontrolled self-modification or automatic changes to permissions.
 

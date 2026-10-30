@@ -140,7 +140,7 @@ The contract must be enforced by mechanisms external to the strategy generator; 
 
 ## 6. Strategy streams and the compression problem
 
-Let a strategy generator produce candidates \(\Pi_t = \{\pi_1,\ldots,\pi_n\}\) during an interval \(t\). A human cannot reliably inspect every candidate, every rollout, and every model assumption as \(n\) and simulation depth increase. Naive summarization may conceal important low-probability harms or systematically suppress minority perspectives.
+Let a strategy generator produce candidates $\Pi_t = \{\pi_1,\ldots,\pi_n\}$ during an interval $t$. A human cannot reliably inspect every candidate, every rollout, and every model assumption as $n$ and simulation depth increase. Naive summarization may conceal important low-probability harms or systematically suppress minority perspectives.
 
 Therefore, strategic compression should preserve at least:
 
@@ -163,7 +163,7 @@ $$
 \mathcal{M}: (\pi, c, o, h, p) \mapsto (\hat{u}, \mathcal{U}, \mathcal{F}, \mathcal{E})
 $$
 
-where \(\hat{u}\) denotes estimated performance, \(\mathcal{U}\) uncertainty, \(\mathcal{F}\) failure boundaries, and \(\mathcal{E}\) supporting and opposing evidence. These estimates are **conditional on the simulation and measurement design**.
+where $\hat{u}$ denotes estimated performance, $\mathcal{U}$ uncertainty, $\mathcal{F}$ failure boundaries, and $\mathcal{E}$ supporting and opposing evidence. These estimates are **conditional on the simulation and measurement design**.
 
 A human-facing map should make visible not only apparent winners but also near-ties, robust compromises, uncertainty gaps, and strategies that perform poorly under unacceptable risks.
 
@@ -248,7 +248,7 @@ Human preference or satisfaction alone does not establish informed agency; users
 
 ## 14. A formal constrained-selection perspective
 
-For subject \(i\), a strategy decision can be represented as:
+For subject $i$, a strategy decision can be represented as:
 
 $$
 \pi_i^* \in operatorname{argmax}_{\pi \in \Pi_i^{\mathrm{authorized}}}
@@ -263,7 +263,7 @@ R_i(\pi) \leq \rho_i, \qquad
 operatorname{Approve}_i(\pi)=1
 $$
 
-Here \(\mathcal{Q}\) is a specified distribution or ensemble of plausible environments, \(G_i\) captures hard constraints, \(R_i\) a chosen risk measure, and \(operatorname{Approve}_i\) an applicable authorization predicate. This is an illustrative optimization formulation; it does not solve value aggregation, institutional legitimacy, or model misspecification.
+Here $\mathcal{Q}$ is a specified distribution or ensemble of plausible environments, $G_i$ captures hard constraints, $R_i$ a chosen risk measure, and $operatorname{Approve}_i$ an applicable authorization predicate. This is an illustrative optimization formulation; it does not solve value aggregation, institutional legitimacy, or model misspecification.
 
 The AI may identify a Pareto set or conditional advantage regions instead of one optimum. The authorized subject chooses among them under its governance rules.
 

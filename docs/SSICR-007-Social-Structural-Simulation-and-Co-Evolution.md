@@ -66,24 +66,24 @@ $$
 
 where:
 
-- \(S_t\): subject states, including capabilities, objectives, internal UIRTU structures, and policies;
-- \(R_t\): typed relay relationships and network topology;
-- \(I_t\): institutional rules and enforcement mechanisms;
-- \(E_t\): environmental conditions and resources;
-- \(K_t\): available evidence, uncertainty, and provenance.
+- $S_t$: subject states, including capabilities, objectives, internal UIRTU structures, and policies;
+- $R_t$: typed relay relationships and network topology;
+- $I_t$: institutional rules and enforcement mechanisms;
+- $E_t$: environmental conditions and resources;
+- $K_t$: available evidence, uncertainty, and provenance.
 
-For subject \(i\), let its action be chosen under its own authorized objectives and information:
+For subject $i$, let its action be chosen under its own authorized objectives and information:
 
 $$
 a_{i,t} \sim \pi_i(\cdot \mid o_{i,t}, W_{i,t}, C_{i,t}),$$
 
-where \(o_{i,t}\) is observation, \(W_{i,t}\) is a revisable world model, and \(C_{i,t}\) contains contracts and constraints. The transition is
+where $o_{i,t}$ is observation, $W_{i,t}$ is a revisable world model, and $C_{i,t}$ contains contracts and constraints. The transition is
 
 $$
 X_{t+1} \sim P_{\theta_t}(\cdot \mid X_t, a_{1,t},\ldots,a_{n,t}),
 $$
 
-with \(\theta_t\) denoting assumptions about behavior and mechanisms. Changes to \(\theta_t\) must be versioned and distinguished from changes in the simulated world; otherwise model revision can be mistaken for real institutional evolution.
+with $\theta_t$ denoting assumptions about behavior and mechanisms. Changes to $\theta_t$ must be versioned and distinguished from changes in the simulated world; otherwise model revision can be mistaken for real institutional evolution.
 
 A useful decomposition is:
 
@@ -200,12 +200,10 @@ Compute allocation should prioritize **information gain and decision relevance**
 
 ## 12. Comparative Advantage, Not Universal Winners
 
-Let \(\pi\) be a strategy, \(c\) a context, \(q\) an opponent-policy distribution, and \(h\) a time horizon. An empirical advantage estimate can be defined relative to a baseline \(\pi_0\):
+Let $\pi$ be a strategy, $c$ a context, $q$ an opponent-policy distribution, and $h$ a time horizon. An empirical advantage estimate can be defined relative to a baseline $\pi_0$:
 
 $$
-\widehat{A}(\pi;c,q,h)
-= \widehat{U}(\pi;c,q,h)
-- \widehat{U}(\pi_0;c,q,h).
+\widehat{A}(\pi;c,q,h) = \widehat{U}(\pi;c,q,h) - \widehat{U}(\pi_0;c,q,h).
 $$
 
 The map should retain confidence intervals or uncertainty bounds, scenario support, alternative metrics, and failure cases. It should not claim an advantage outside the sampled or validated region. “Comparative advantage” here denotes conditional strategic performance, not necessarily the precise opportunity-cost concept in international trade theory.

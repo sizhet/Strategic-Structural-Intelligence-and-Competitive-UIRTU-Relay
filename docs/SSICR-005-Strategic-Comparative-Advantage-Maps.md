@@ -88,17 +88,17 @@ A SAM is neither a replacement for the simulation engine nor an autonomous decis
 
 Let:
 
-- \(i\) denote a strategic subject;
-- \(\pi\in\Pi_i\) denote a strategy, including permitted Relay choices;
-- \(\pi_0\) denote a specified comparator;
-- \(c\in\mathcal C\) denote a context;
-- \(\omega\sim Q(\cdot\mid c)\) denote opponent policies or opponent populations;
-- \(m\in\mathcal M\) denote a simulator or model family;
-- \(h\) denote the evaluation horizon;
-- \(p\) denote an authorized scoring perspective;
-- \(\xi\) denote stochastic disturbances or random seeds.
+- $i$ denote a strategic subject;
+- $\pi\in\Pi_i$ denote a strategy, including permitted Relay choices;
+- $\pi_0$ denote a specified comparator;
+- $c\in\mathcal C$ denote a context;
+- $\omega\sim Q(\cdot\mid c)$ denote opponent policies or opponent populations;
+- $m\in\mathcal M$ denote a simulator or model family;
+- $h$ denote the evaluation horizon;
+- $p$ denote an authorized scoring perspective;
+- $\xi$ denote stochastic disturbances or random seeds.
 
-Let the evaluated outcome be \(J_i(\pi,c,\omega,m,h,p,\xi)\). The conditional advantage against \(\pi_0\) is defined as:
+Let the evaluated outcome be $J_i(\pi,c,\omega,m,h,p,\xi)$. The conditional advantage against $\pi_0$ is defined as:
 
 $$
 \Delta_i(\pi,\pi_0\mid c,Q,m,h,p)
@@ -110,7 +110,7 @@ $$
 
 This definition presumes a common, authorized scoring scale. If perspectives cannot be combined legitimately, the map retains a **vector of outcomes** rather than forcing a scalar total order.
 
-The map should preserve an estimate \(\widehat\Delta\), an uncertainty interval or distribution, sample size, evidence quality, and comparator identity. An advantage claim without these qualifiers is incomplete.
+The map should preserve an estimate $\widehat\Delta$, an uncertainty interval or distribution, sample size, evidence quality, and comparator identity. An advantage claim without these qualifiers is incomplete.
 
 ### 4.1 Paired comparison
 
@@ -140,16 +140,16 @@ Report Pareto comparisons and constraint violations before applying optional, ex
 
 ## 5. Anatomy of an Advantage Region
 
-An **advantage region** is a subset \(R\subseteq\mathcal C\) in which evidence supports a specified comparative claim under an explicit opponent and model envelope.
+An **advantage region** is a subset $R\subseteq\mathcal C$ in which evidence supports a specified comparative claim under an explicit opponent and model envelope.
 
-For a chosen decision threshold \(\delta\), one possible conservative definition is:
+For a chosen decision threshold $\delta$, one possible conservative definition is:
 
 $$
 R_{\pi,\pi_0}^{\delta}
 =\{c: L_{\alpha}(\Delta_i(\pi,\pi_0\mid c))>\delta\},
 $$
 
-where \(L_{\alpha}\) is an appropriate lower confidence or credible bound under a declared statistical procedure. This is **one proposed operationalization**, not a universal rule. Multiple comparisons, adaptive search, correlated trials, and uncertainty in the simulator require explicit treatment.
+where $L_{\alpha}$ is an appropriate lower confidence or credible bound under a declared statistical procedure. This is **one proposed operationalization**, not a universal rule. Multiple comparisons, adaptive search, correlated trials, and uncertainty in the simulator require explicit treatment.
 
 A map should distinguish:
 
@@ -167,7 +167,7 @@ A strategic comparison is incomplete without a reference point. A centralized Re
 
 A SAM therefore supports:
 
-- **Pairwise maps:** \(\pi_A\) versus \(\pi_B\).
+- **Pairwise maps:** $\pi_A$ versus $\pi_B$.
 - **Baseline-relative maps:** each candidate versus a fixed reference.
 - **Portfolio maps:** performance of a set of strategies under a switching policy.
 - **Opponent-conditioned maps:** the same strategy across opponent families.
@@ -235,8 +235,7 @@ Average performance alone is insufficient. Additional measures can include:
 For illustration, conditional regret may be expressed as:
 
 $$
-operatorname{Regret}(\pi,c) 
-=\max_{\pi'\in\Pi_{\mathrm{feasible}}(c)}
+operatorname{Regret}(\pi,c) = \max_{\pi'\in\Pi_{\mathrm{feasible}}(c)}
 \mathbb E[J_i(\pi',c)]-\mathbb E[J_i(\pi,c)].
 $$
 

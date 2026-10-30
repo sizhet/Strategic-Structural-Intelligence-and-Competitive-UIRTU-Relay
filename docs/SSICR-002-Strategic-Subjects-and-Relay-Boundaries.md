@@ -195,13 +195,13 @@ These processes should be logged separately, because they imply different valida
 
 A strategic subject may maintain its own control plane and scoring forest. Cross-subject systems therefore do not necessarily possess one legitimate global utility function.
 
-For strategy \(\pi_i\) under context \(c\), opponent configuration \(\Pi_{-i}\), and horizon \(h\), write:
+For strategy $\pi_i$ under context $c$, opponent configuration $\Pi_{-i}$, and horizon $h$, write:
 
 $$
 J_i(\pi_i \mid c, \Pi_{-i}, h; V_i)
 $$
 
-The function depends on the subject's valuation \(V_i\). A strategy can score well for one subject and poorly for another without either score being mathematically erroneous.
+The function depends on the subject's valuation $V_i$. A strategy can score well for one subject and poorly for another without either score being mathematically erroneous.
 
 For evaluation, distinguish:
 

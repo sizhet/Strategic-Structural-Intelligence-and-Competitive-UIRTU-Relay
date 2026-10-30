@@ -108,13 +108,13 @@ $$
 
 where:
 
-- \(N_s\): number of independently directed subjects;
-- \(D_o\): diversity or conflict among objectives;
-- \(I_a\): information asymmetry;
-- \(R_c\): resource constraints and competition;
-- \(H\): decision and evaluation horizons;
-- \(G\): institutional and governance rules;
-- \(A_d\): capacity for strategic adaptation.
+- $N_s$: number of independently directed subjects;
+- $D_o$: diversity or conflict among objectives;
+- $I_a$: information asymmetry;
+- $R_c$: resource constraints and competition;
+- $H$: decision and evaluation horizons;
+- $G$: institutional and governance rules;
+- $A_d$: capacity for strategic adaptation.
 
 This expression is a **conceptual decomposition**, not an empirically calibrated law.
 
@@ -159,14 +159,14 @@ A cooperative dispatcher asks: *Which available unit best completes this task?*
 
 A strategic dispatcher must also ask: *Which composition and interaction policy best advances an authorized objective, given the possible responses of other subjects and the relevant time horizon?*
 
-For subject \(i\), a stylized decision problem is:
+For subject $i$, a stylized decision problem is:
 
 $$
 \pi_i^* \in \arg\max_{\pi_i \in \Pi_i^{authorized}}
 \mathbb{E}_{\pi_{-i},\,E}\left[U_i(\pi_i,\pi_{-i},E;H)\right]
 $$
 
-Here \(\pi_i\) is a subject's strategy, \(\pi_{-i}\) represents other subjects' strategies, \(E\) denotes environmental conditions, and \(H\) the evaluation horizon. The expectation is meaningful only if the assumed distribution or scenario ensemble is made explicit. In practice, multi-objective, robust, and constrained evaluations may be more appropriate than a single utility maximum.
+Here $\pi_i$ is a subject's strategy, $\pi_{-i}$ represents other subjects' strategies, $E$ denotes environmental conditions, and $H$ the evaluation horizon. The expectation is meaningful only if the assumed distribution or scenario ensemble is made explicit. In practice, multi-objective, robust, and constrained evaluations may be more appropriate than a single utility maximum.
 
 This distinction leads to a proposed **Strategic Control Plane** that can maintain opponent/partner models, authorized strategy alternatives, relay composition options, uncertainty estimates, and counterfactual comparisons. Its existence does not imply omniscience or reliable prediction of other actors.
 
@@ -181,7 +181,7 @@ S_A^{t+1}=F_A(S_A^t,S_B^t,E_t), \qquad
 S_B^{t+1}=F_B(S_B^t,S_A^t,E_t)
 $$
 
-where \(S\) includes strategy and relevant structural state. This formulation does not guarantee convergence, improvement, or equilibrium.
+where $S$ includes strategy and relevant structural state. This formulation does not guarantee convergence, improvement, or equilibrium.
 
 Possible trajectories include:
 
@@ -237,7 +237,7 @@ $$
 A(\pi \mid C,O,H,M)
 $$
 
-is a conceptual contextual advantage function for strategy \(\pi\), conditions \(C\), opponent scenarios \(O\), horizon \(H\), and simulation model \(M\). Here *comparative advantage* means conditional relative performance, not necessarily the formal opportunity-cost definition used in international trade theory.
+is a conceptual contextual advantage function for strategy $\pi$, conditions $C$, opponent scenarios $O$, horizon $H$, and simulation model $M$. Here *comparative advantage* means conditional relative performance, not necessarily the formal opportunity-cost definition used in international trade theory.
 
 A **Strategic Advantage Map** should preserve advantage regions, failure boundaries, sensitivity, model provenance, confidence intervals where estimable, and counter-evidence. The detailed data model is reserved for `SPEC-003-Strategic-Advantage-Map-Schema.md`.
 

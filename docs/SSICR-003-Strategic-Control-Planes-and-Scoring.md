@@ -100,7 +100,7 @@ $$
 \mathcal{F}_i = \{ S_{i,p,c,h} : (\pi,\omega) \mapsto (v,u,e) \},
 $$
 
-where \(\pi\) is a candidate strategy, \(\omega\) is a simulated outcome, \(v\) is a score or vector of scores, \(u\) describes uncertainty, and \(e\) references supporting evidence.
+where $\pi$ is a candidate strategy, $\omega$ is a simulated outcome, $v$ is a score or vector of scores, $u$ describes uncertainty, and $e$ references supporting evidence.
 
 Representative scoring perspectives include:
 
@@ -117,30 +117,28 @@ An SSF should retain raw measurements and their provenance. Weighted scalar scor
 
 ## 6. Contextual Strategy Evaluation
 
-Let \(\pi_i\) be subject *i*'s strategy, \(\boldsymbol{\pi}_{-i}\) the strategies of other subjects, \(c\) the environment, and \(h\) the evaluation horizon. A contextual performance measure is:
+Let $\pi_i$ be subject *i*'s strategy, $\boldsymbol{\pi}_{-i}$ the strategies of other subjects, $c$ the environment, and $h$ the evaluation horizon. A contextual performance measure is:
 
 $$
 V_i(\pi_i\mid c,\boldsymbol{\pi}_{-i},h,\theta_i),
 $$
 
-where \(\theta_i\) represents authorized scoring preferences. Since opponents are not fully known, evaluation uses an ensemble of opponent hypotheses \(q\):
+where $\theta_i$ represents authorized scoring preferences. Since opponents are not fully known, evaluation uses an ensemble of opponent hypotheses $q$:
 
 $$
-\widehat V_i(\pi_i\mid c,h)
-= \mathbb E_{\boldsymbol{\pi}_{-i}\sim q}
+\widehat V_i(\pi_i\mid c,h) = \mathbb E_{\boldsymbol{\pi}_{-i}\sim q}
 \left[V_i(\pi_i\mid c,\boldsymbol{\pi}_{-i},h,\theta_i)\right].
 $$
 
-This expectation is a modeling convenience, not a guarantee that the distribution \(q\) is correct. Robust alternatives should test worst-case or distribution-shifted opponents.
+This expectation is a modeling convenience, not a guarantee that the distribution $q$ is correct. Robust alternatives should test worst-case or distribution-shifted opponents.
 
-For two strategies \(a\) and \(b\), a conditional advantage estimate is:
+For two strategies $a$ and $b$, a conditional advantage estimate is:
 
 $$
-\Delta_i(a,b\mid c,h,q)
-= \widehat V_i(a\mid c,h,q)-\widehat V_i(b\mid c,h,q).
+\Delta_i(a,b\mid c,h,q) = \widehat V_i(a\mid c,h,q)-\widehat V_i(b\mid c,h,q).
 $$
 
-Positive \(\Delta_i\) indicates an advantage *under the stated model and scoring perspective*, not a universal superiority claim. This usage of comparative advantage is broader than the strict opportunity-cost definition in classical trade theory.
+Positive $\Delta_i$ indicates an advantage *under the stated model and scoring perspective*, not a universal superiority claim. This usage of comparative advantage is broader than the strict opportunity-cost definition in classical trade theory.
 
 ## 7. Strategy Selection Is Not a Single Argmax
 
@@ -151,7 +149,7 @@ $$
 \left\{\mathbf V_i(\pi): \pi\in\Pi_i,\; g_i(\pi)\leq 0\right\},
 $$
 
-where \(g_i\) represents authorized constraints. The result is a set of non-dominated candidates, not necessarily one winning strategy.
+where $g_i$ represents authorized constraints. The result is a set of non-dominated candidates, not necessarily one winning strategy.
 
 A decision gateway can then expose a short list with:
 
@@ -174,7 +172,7 @@ The strategy space includes not only what to do, but **how intelligence is organ
 - Redundancy, failover, and independence among evaluators.
 - Temporary alliances and contract-governed collaboration.
 
-A relay configuration changes information flow, dependency risk, resource cost, and future options. Therefore, the SCP should score strategy-policy pairs \((\pi,r)\), where \(r\) is a relay architecture, rather than treating architecture as fixed background infrastructure.
+A relay configuration changes information flow, dependency risk, resource cost, and future options. Therefore, the SCP should score strategy-policy pairs $(\pi,r)$, where $r$ is a relay architecture, rather than treating architecture as fixed background infrastructure.
 
 ## 9. Multi-Horizon Scoring and Option Preservation
 
