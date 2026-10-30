@@ -89,13 +89,13 @@ Subject D can compete for resources and influence while cooperating with the oth
 
 ### 4.1 Subject state
 
-For each subject \(i\), let:
+For each subject $i$, let:
 
 $$
 X_i(t)=\bigl(C_i,K_i,E_i,T_i,R_i,G_i,W_i,\Pi_i\bigr)_t,
 $$
 
-where \(C\) denotes available compute/resources, \(K\) reusable knowledge, \(E\) evaluation quality, \(T\) talent or effective research capacity, \(R\) Relay relationships, \(G\) governance constraints, \(W\) strategic worldview, and \(\Pi\) the current strategy policy.
+where $C$ denotes available compute/resources, $K$ reusable knowledge, $E$ evaluation quality, $T$ talent or effective research capacity, $R$ Relay relationships, $G$ governance constraints, $W$ strategic worldview, and $\Pi$ the current strategy policy.
 
 The components are model abstractions, not direct observations of organizational psychology or intent. Each variable requires a measurement definition and uncertainty range before an experiment is valid.
 
@@ -156,7 +156,7 @@ $$
 \pi_i: (X_i,\widehat X_{-i},Z,H_i)\mapsto A_i,
 $$
 
-where \(\widehat X_{-i}\) is the subject's uncertain estimate of other subjects, \(Z\) is environmental context, \(H_i\) is available history, and \(A_i\) is a permitted action or action distribution.
+where $\widehat X_{-i}$ is the subject's uncertain estimate of other subjects, $Z$ is environmental context, $H_i$ is available history, and $A_i$ is a permitted action or action distribution.
 
 This representation separates an adaptable policy from a one-time static choice.
 
@@ -172,7 +172,7 @@ The experiment compares at least four external network configurations:
 
 **R3 — Evaluation commons.** Multiple subjects participate in common evaluation standards and independent reproducibility checks without sharing all research assets.
 
-Each edge \(e_{ij}\) has a contract:
+Each edge $e_{ij}$ has a contract:
 
 $$
  e_{ij}=\bigl(\text{purpose},\text{payload},\text{rights},\text{latency},\text{cost},\text{expiry},\text{audit}\bigr).
@@ -195,7 +195,7 @@ Use a factorial or fractional-factorial scenario design. Candidate axes include:
 | Institutional stability | Stable / changing | Contract durability and strategic switching |
 | Time horizon | Short / long | Immediate gains versus compounding capability |
 
-The complete \(2^8\) design has 256 cells before seeds, strategies, and opponent policies. Initial studies should use a preregistered fractional design and add cells adaptively only under a documented selection rule.
+The complete $2^8$ design has 256 cells before seeds, strategies, and opponent policies. Initial studies should use a preregistered fractional design and add cells adaptively only under a documented selection rule.
 
 ### 9.1 Environmental shocks
 
@@ -209,14 +209,14 @@ Predefined shocks may include a change in research opportunity distribution, a d
 
 ## 10. Transition Model
 
-Let \(Z_t\) be the shared environment, \(N_t\) the Relay network, and \(A_t\) the joint action profile. The simulator evolves according to:
+Let $Z_t$ be the shared environment, $N_t$ the Relay network, and $A_t$ the joint action profile. The simulator evolves according to:
 
 $$
 (X_{t+1},Z_{t+1},N_{t+1})
 \sim P_\theta(\cdot\mid X_t,Z_t,N_t,A_t,\xi_t),
 $$
 
-where \(\theta\) is the calibrated model configuration and \(\xi_t\) captures exogenous uncertainty.
+where $\theta$ is the calibrated model configuration and $\xi_t$ captures exogenous uncertainty.
 
 The transition mechanism should distinguish:
 
@@ -231,13 +231,13 @@ Do not equate an increase in simulated benchmark score with verified real-world 
 
 ## 11. Multi-Perspective Scoring Forest
 
-For subject \(i\), define a vector of measured outcomes:
+For subject $i$, define a vector of measured outcomes:
 
 $$
 Y_i=(q_i,v_i,r_i,c_i,s_i,o_i),
 $$
 
-where \(q\) is research quality, \(v\) is validated innovation rate, \(r\) is resilience, \(c\) is resource efficiency, \(s\) is safety/reliability, and \(o\) is option value or strategic flexibility.
+where $q$ is research quality, $v$ is validated innovation rate, $r$ is resilience, $c$ is resource efficiency, $s$ is safety/reliability, and $o$ is option value or strategic flexibility.
 
 Different authorized perspectives may assign different weights:
 
@@ -245,7 +245,7 @@ $$
 U_i^{(p)}=f_p(Y_i,\text{constraints}_i),
 $$
 
-with \(p\) identifying a declared scoring perspective. No single score should be presented as the objective truth about organizational or social success.
+with $p$ identifying a declared scoring perspective. No single score should be presented as the objective truth about organizational or social success.
 
 ### 11.1 Constraints are not mere score penalties
 
@@ -265,7 +265,7 @@ A strategy that wins against a static competitor may fail against an adapting co
 4. Co-adapting populations with independent learning histories.
 5. Previously unseen opponent archetypes held out for testing.
 
-For candidate strategy \(a\), scenario \(z\), and opponent policy \(b\), define:
+For candidate strategy $a$, scenario $z$, and opponent policy $b$, define:
 
 $$
 \Delta_i(a,a_0\mid z,b,p)
@@ -273,7 +273,7 @@ $$
 -\mathbb E[U_i^{(p)}\mid a_0,z,b],
 $$
 
-where \(a_0\) is a specified comparator. Every advantage claim must name its comparator, scoring perspective, horizon, and opponent model.
+where $a_0$ is a specified comparator. Every advantage claim must name its comparator, scoring perspective, horizon, and opponent model.
 
 ## 13. Experiment Protocol
 
@@ -361,14 +361,14 @@ A valid record includes:
 - counter-evidence and known failure boundaries;
 - open questions and OTHERS residuals.
 
-For a strategy pair \((a,b)\), define an estimated advantage region:
+For a strategy pair $(a,b)$, define an estimated advantage region:
 
 $$
 \widehat{\mathcal A}_{a>b}^{(p)}
 =\{z:\widehat\Delta(a,b\mid z,p)>\tau\},
 $$
 
-where \(\tau\) is a preregistered minimum practical advantage. Region membership must also satisfy confidence and robustness criteria; a positive point estimate alone is insufficient.
+where $\tau$ is a preregistered minimum practical advantage. Region membership must also satisfy confidence and robustness criteria; a positive point estimate alone is insufficient.
 
 ### 15.1 Example map entry (illustrative)
 

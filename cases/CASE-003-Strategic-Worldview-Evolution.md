@@ -57,13 +57,13 @@ These labels describe **synthetic agents**, not real institutions. Initial world
 
 ### 3.2 World state
 
-At time \(t\), define a modeled state:
+At time $t$, define a modeled state:
 
 $$
 X_t = (E_t, A_t, R_t, I_t, H_t),
 $$
 
-where \(E_t\) is environment, \(A_t\) subject capabilities and resources, \(R_t\) Relay relationships, \(I_t\) institutional rules, and \(H_t\) the available evidence history. Each subject observes only a filtered portion of \(X_t\). The observation function itself may depend on the subject's worldview, creating a source of selective attention that must be audited.
+where $E_t$ is environment, $A_t$ subject capabilities and resources, $R_t$ Relay relationships, $I_t$ institutional rules, and $H_t$ the available evidence history. Each subject observes only a filtered portion of $X_t$. The observation function itself may depend on the subject's worldview, creating a source of selective attention that must be audited.
 
 ## 4. The Five-Level Learning Structure
 
@@ -79,7 +79,7 @@ A successful simulation does not automatically establish a universal principle; 
 
 ## 5. Initial Worldview Forest
 
-Let the initial forest be \(\mathcal{W}_0 = \{W_A,W_C,W_M,W_S\}\). Each worldview tree contains:
+Let the initial forest be $\mathcal{W}_0 = \{W_A,W_C,W_M,W_S\}$. Each worldview tree contains:
 
 - a subject and authority boundary;
 - factual assumptions and their evidence status;
@@ -160,7 +160,7 @@ Simulation outputs must identify model version, run seed, intervention, observed
 
 ---
 
-For strategy \(s\), comparator \(b\), subject \(i\), context \(c\), horizon \(h\), and scoring perspective \(p\), define an estimated relative value:
+For strategy $s$, comparator $b$, subject $i$, context $c$, horizon $h$, and scoring perspective $p$, define an estimated relative value:
 
 $$
 \widehat{\Delta}_{i,p}(s,b\mid c,h)
@@ -216,9 +216,9 @@ $$
 W_i = (B_i, P_i, V_i, G_i),
 $$
 
-where \(B_i\) denotes empirical beliefs, \(P_i\) instrumental principles, \(V_i\) normative commitments and priorities, and \(G_i\) governance and authorization rules.
+where $B_i$ denotes empirical beliefs, $P_i$ instrumental principles, $V_i$ normative commitments and priorities, and $G_i$ governance and authorization rules.
 
-A simulator may propose updates to \(B_i\) and \(P_i\) based on evidence. Changes to \(V_i\) or \(G_i\) require an authorized process defined by the subject contract. A system must not disguise a normative change as a factual update by silently altering score weights, redefining success, or modifying the subject's objective function.
+A simulator may propose updates to $B_i$ and $P_i$ based on evidence. Changes to $V_i$ or $G_i$ require an authorized process defined by the subject contract. A system must not disguise a normative change as a factual update by silently altering score weights, redefining success, or modifying the subject's objective function.
 
 **Non-negotiable case invariant:** *Model-predicted superiority is not authorization to change the subject's ends or execute external actions.*
 

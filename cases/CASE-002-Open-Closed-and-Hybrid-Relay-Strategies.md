@@ -107,14 +107,14 @@ $$
 
 where:
 
-- \(o_k\): knowledge artifact openness;
-- \(o_i\): interface openness;
-- \(o_e\): evaluation transparency;
-- \(a\): access-control strictness;
-- \(r\): reciprocity requirement;
-- \(v\): revocation and containment capability;
-- \(d\): dependency diversification;
-- \(q\): audit and quality-assurance intensity.
+- $o_k$: knowledge artifact openness;
+- $o_i$: interface openness;
+- $o_e$: evaluation transparency;
+- $a$: access-control strictness;
+- $r$: reciprocity requirement;
+- $v$: revocation and containment capability;
+- $d$: dependency diversification;
+- $q$: audit and quality-assurance intensity.
 
 Each component may be continuous, ordinal, or categorical, but its type and scale must be declared in the experiment schema. Strategy families define **regions of policy space**, not single points.
 
@@ -172,21 +172,21 @@ Topology is a structural treatment variable, not a substitute for the underlying
 
 ## 9. Multi-Period Dynamics
 
-At simulation step \(t\), subject \(i\) has state:
+At simulation step $t$, subject $i$ has state:
 
 $$
 X_{i,t}=(K_{i,t}, R_{i,t}, C_{i,t}, B_{i,t}, W_{i,t})
 $$
 
-with knowledge \(K\), resources \(R\), capabilities \(C\), Relay boundaries \(B\), and strategic worldview \(W\).
+with knowledge $K$, resources $R$, capabilities $C$, Relay boundaries $B$, and strategic worldview $W$.
 
-Its strategy \(\pi_{i,t}\) determines permissible exchange, capability acquisition, and adaptation. An environment transition function updates subject states and institutional rules:
+Its strategy $\pi_{i,t}$ determines permissible exchange, capability acquisition, and adaptation. An environment transition function updates subject states and institutional rules:
 
 $$
 (X_{t+1}, I_{t+1}) = F(X_t, I_t, \boldsymbol{\pi}_t, \xi_t; \theta)
 $$
 
-where \(I\) represents institutions, \(\xi\) exogenous disturbances, and \(\theta\) the declared simulation assumptions.
+where $I$ represents institutions, $\xi$ exogenous disturbances, and $\theta$ the declared simulation assumptions.
 
 The model must make explicit whether agents observe true states, noisy signals, or only locally available evidence. Omniscient agents would bias conclusions about strategic learning.
 
@@ -217,7 +217,7 @@ $$
 \mathbf{Y}_{i}= (Q, V, L, S, A, D, G)
 $$
 
-where \(Q\) is research quality, \(V\) innovation velocity, \(L\) long-run learning, \(S\) security and safety, \(A\) adaptability, \(D\) dependency resilience, and \(G\) governance compliance. Define units, direction, normalization, and missing-data rules for each metric.
+where $Q$ is research quality, $V$ innovation velocity, $L$ long-run learning, $S$ security and safety, $A$ adaptability, $D$ dependency resilience, and $G$ governance compliance. Define units, direction, normalization, and missing-data rules for each metric.
 
 Subject-specific evaluation may use:
 
@@ -225,13 +225,13 @@ $$
 U_i(\pi,c,p) = \sum_{k} w_{i,k,p} \, \widetilde{Y}_{i,k}(\pi,c) - \lambda_i operatorname{Risk}_i(\pi,c)
 $$
 
-where \(p\) identifies the authorized scoring perspective. Weighted utility is **one optional decision model**, not a universal representation of value. Report Pareto dominance, individual metric outcomes, and constraints alongside any scalar score.
+where $p$ identifies the authorized scoring perspective. Weighted utility is **one optional decision model**, not a universal representation of value. Report Pareto dominance, individual metric outcomes, and constraints alongside any scalar score.
 
 Do not treat a simulated utility maximum as authorization to execute a policy.
 
 ## 12. Comparative Advantage as a Conditional Claim
 
-For two policies \(\pi_a\) and \(\pi_b\), define:
+For two policies $\pi_a$ and $\pi_b$, define:
 
 $$
 \Delta_{a,b}(c,p,o,h)=
@@ -239,9 +239,9 @@ $$
 \mathbb{E}[U(\pi_b\mid c,p,o,h)]
 $$
 
-where \(c\) is environmental context, \(p\) scoring perspective, \(o\) opponent model, and \(h\) time horizon.
+where $c$ is environmental context, $p$ scoring perspective, $o$ opponent model, and $h$ time horizon.
 
-The expectation is meaningful only relative to a declared simulation distribution and model. A positive \(\Delta\) supports a **conditional** advantage claim, not a universal ranking. Confidence intervals, model disagreement, and observed failure boundaries must accompany any reported sign.
+The expectation is meaningful only relative to a declared simulation distribution and model. A positive $\Delta$ supports a **conditional** advantage claim, not a universal ranking. Confidence intervals, model disagreement, and observed failure boundaries must accompany any reported sign.
 
 ## 13. Illustrative Hypotheses, Not Results
 
