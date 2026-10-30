@@ -145,6 +145,10 @@ Positive $\Delta_i$ indicates an advantage *under the stated model and scoring p
 Selection may be multi-objective, constraint-aware, and uncertainty-sensitive. An illustrative policy is:
 
 $$
+\pi_i^* \in \operatorname{ParetoFront} \left\{ \mathbf{V}_i(\pi) : \pi \in \Pi_i, \; g_i(\pi) \leq 0 \right\},
+$$
+
+$$
 \pi_i^* \in \operatorname{ParetoFront} \left\{\mathbf V_i(\pi): \pi\in\Pi_i\; g_i(\pi)\leq 0\right\},
 $$
 
