@@ -222,7 +222,7 @@ where $Q$ is research quality, $V$ innovation velocity, $L$ long-run learning, $
 Subject-specific evaluation may use:
 
 $$
-U_i(\pi,c,p) = \sum_{k} w_{i,k,p} \, \widetilde{Y}_{i,k}(\pi,c) - \lambda_i operatorname{Risk}_i(\pi,c)
+U_i(\pi,c,p) = \sum_{k} w_{i,k,p} \, \widetilde{Y}_{i,k}(\pi,c) - \lambda_i \mathrm{Risk}_i(\pi,c)
 $$
 
 where $p$ identifies the authorized scoring perspective. Weighted utility is **one optional decision model**, not a universal representation of value. Report Pareto dominance, individual metric outcomes, and constraints alongside any scalar score.
