@@ -145,8 +145,7 @@ An **advantage region** is a subset $R\subseteq\mathcal C$ in which evidence sup
 For a chosen decision threshold $\delta$, one possible conservative definition is:
 
 $$
-R_{\pi,\pi_0}^{\delta}
-=\{c: L_{\alpha}(\Delta_i(\pi,\pi_0\mid c))>\delta\},
+R_{\pi,\pi_0}^{\delta} = \{c: L_{\alpha}(\Delta_i(\pi,\pi_0\mid c))>\delta\},
 $$
 
 where $L_{\alpha}$ is an appropriate lower confidence or credible bound under a declared statistical procedure. This is **one proposed operationalization**, not a universal rule. Multiple comparisons, adaptive search, correlated trials, and uncertainty in the simulator require explicit treatment.
@@ -235,7 +234,7 @@ Average performance alone is insufficient. Additional measures can include:
 For illustration, conditional regret may be expressed as:
 
 $$
-operatorname{Regret}(\pi,c) = \max_{\pi'\in\Pi_{\mathrm{feasible}}(c)}
+\mathrm{Regret}(\pi,c) = \max_{\pi'\in\Pi_{\mathrm{feasible}}(c)}
 \mathbb E[J_i(\pi',c)]-\mathbb E[J_i(\pi,c)].
 $$
 
