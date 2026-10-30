@@ -163,9 +163,7 @@ Simulation outputs must identify model version, run seed, intervention, observed
 For strategy $s$, comparator $b$, subject $i$, context $c$, horizon $h$, and scoring perspective $p$, define an estimated relative value:
 
 $$
-\widehat{\Delta}_{i,p}(s,b\mid c,h)
-= \widehat{\mathbb{E}}[U_{i,p}(s\mid c,h)]
-- \widehat{\mathbb{E}}[U_{i,p}(b\mid c,h)].
+\widehat{\Delta}_{i,p}(s,b\mid c,h) = \widehat{\mathbb{E}}[U_{i,p}(s\mid c,h)] - \widehat{\mathbb{E}}[U_{i,p}(b\mid c,h)].
 $$
 
 The estimate is meaningful only when both interventions are comparable and uncertainty is documented. An SAM entry should include confidence intervals or uncertainty bounds, the opponent distribution, the tested context region, and explicit out-of-distribution warnings.
