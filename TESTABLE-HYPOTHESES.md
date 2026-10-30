@@ -36,9 +36,9 @@ $$
  e=(s,\pi,\pi_{-s},c,h,p,\omega,a),
 $$
 
-where \(s\) is a focal subject; \(\pi\) its strategy; \(\pi_{-s}\) the opponent or partner profile; \(c\) environmental and institutional context; \(h\) decision horizon; \(p\) scoring perspective; \(\omega\) stochastic realization; and \(a\) the principal's authorization envelope.
+where $s$ is a focal subject; $\pi$ its strategy; $\pi_{-s}$ the opponent or partner profile; $c$ environmental and institutional context; $h$ decision horizon; $p$ scoring perspective; $\omega$ stochastic realization; and $a$ the principal's authorization envelope.
 
-An outcome \(Y(e)\) is measured separately for each authorized scoring perspective. Comparative advantage is **relative and conditional**:
+An outcome $Y(e)$ is measured separately for each authorized scoring perspective. Comparative advantage is **relative and conditional**:
 
 $$
  \Delta(\pi,\pi_0\mid c,\pi_{-s},h,p)
@@ -46,9 +46,9 @@ $$
  -\mathbb E[Y(\pi_0,\pi_{-s},c,h,p)].
 $$
 
-The baseline \(\pi_0\), perspective \(p\), and context \(c\) must be disclosed. There is no assumption of a universal scalar social welfare function or globally optimal worldview.
+The baseline $\pi_0$, perspective $p$, and context $c$ must be disclosed. There is no assumption of a universal scalar social welfare function or globally optimal worldview.
 
-A **Strategic Advantage Map (SAM)** estimates regions where \(\Delta\) is positive, uncertain, or negative, and records the corresponding provenance and failure boundaries. A **Strategic Worldview Forest (SWF)** organizes provisional, evidence-linked strategic principles across multiple legitimate perspectives. Neither map nor worldview automatically authorizes action.
+A **Strategic Advantage Map (SAM)** estimates regions where $\Delta$ is positive, uncertain, or negative, and records the corresponding provenance and failure boundaries. A **Strategic Worldview Forest (SWF)** organizes provisional, evidence-linked strategic principles across multiple legitimate perspectives. Neither map nor worldview automatically authorizes action.
 
 ## 3. Common Testbed
 
@@ -319,7 +319,7 @@ Choose exactly one primary endpoint per experiment before running confirmatory t
 
 ### 18.4 Effect-size decision rule
 
-A suggested generic confirmatory rule is: the confidence interval for the treatment effect excludes zero in the favorable direction **and** the estimate exceeds a prespecified practical threshold \(\delta\). The value of \(\delta\) must be chosen from pilot evidence and use-case costs **before** test-set evaluation, not retrofitted after observing results.
+A suggested generic confirmatory rule is: the confidence interval for the treatment effect excludes zero in the favorable direction **and** the estimate exceeds a prespecified practical threshold $\delta$. The value of $\delta$ must be chosen from pilot evidence and use-case costs **before** test-set evaluation, not retrofitted after observing results.
 
 ### 18.5 Negative results
 

@@ -30,7 +30,7 @@ $$
 A(s \mid c, o, p, h, b, E)
 $$
 
-where \(s\) is a candidate strategy; \(c\) the environment; \(o\) the opponent or counterpart distribution; \(p\) the scoring perspective; \(h\) the horizon; \(b\) the resource and authority budget; and \(E\) the available evidence. The expression denotes a *contextual assessment*, not a guaranteed causal effect or objective truth.
+where $s$ is a candidate strategy; $c$ the environment; $o$ the opponent or counterpart distribution; $p$ the scoring perspective; $h$ the horizon; $b$ the resource and authority budget; and $E$ the available evidence. The expression denotes a *contextual assessment*, not a guaranteed causal effect or objective truth.
 
 Future work should explicitly model when the ordering of two strategies reverses, why it reverses, and whether the evidence generalizes beyond the tested settings.
 
